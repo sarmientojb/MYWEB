@@ -4,94 +4,101 @@
 <html lang="en">
 <head>
    
- <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAYJAY</title>
- 
-<style>
-     body
-     {
+  <title>JAY</title>
+   <link rel="shortcut icon" type="x-icon" href="ANIME.jpg">
+   <link rel="stylesheet" href="STYLE.CSS"/>
 
-      /*background: red;*/
-      background: url("ANIME.jpg");
-      background-repeat: no-repeat;
-      background-size: 100%;
+   <body>
+
+    
+<h1 id="TC">WELCOME EVERYONE "僕のウェブサイトがみんようこそ"</h1>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
+<hr id="L1"> 
+
+</head>
+<body>
+<div  class="main">
+  <div class="TILES">
+    <div class="icon">
+         <h1 class="logo">JEISARU</h1>
+     </div>
+  </div>       
+  <div style="text-align: left">
+    <form target="_blank"></form>
+      <!-- from target = "_blank" ===adding new tab====--> 
+    
+        <label for="fname">First name:</label><br>
+        
+      <!-- maxlength="8" minlenght --> <!--THIS IS numbers of letters-->
+    
+        <!-- placeholder="First Name"-->
+          <!-- THIS IS FOR  putting names inside the text box-->
+    
+         <!--"readonly" just to ready only-->
+        <!-- required --> <!--THIS IS FOR requiring to inter or filled out the text box-->
+    
+    <!-- input type = "email"--> <!--required to inout email -->
+        
+        <br> <input type="text" id="fname" name="fname"><br>
+        <label for="lname"></label>Last Name:</label><br>
+        <br><input type="text" required ="lname" name="lname">
+    
+    <!-- <style> "This is for the style of the label trial"
+      label
+      {
+        color: rgb(236, 240, 242);
+        align-content: center 100% ;
+      }
+    
+      </style> -->
+      
+    
+       <br><input type="submit" value="Submit"><br>
+     
+        <label for="Welcome" >Your are: </label>
+        <output name ="" for ="fname lname"> </output>
+      </form>
+    
+    </div>
   
-    }
-    </style> 
 
-</head>u
-<!--THIS IS FOR DIVISION ONLY-->
-<hr>
+<h1 id="C1">MOVIES</h1>
+<h1 id="C2">GALLERY</h1>
+<h1 id="C3">SONGS</h1>
+<h1 id="C4">GAMES</h1>
 
-<style>
-    h1
-    {
-    color: blue;
-    text-align: center;
-    
-    }
-    h2
-    {
-      color: yellowgreen;
-      text-align: center; 
-      orientation: align-content;
-    }
-    
-    h3
-    {
-      color: skyblue;
-      text-align: left; 
-    }
- h6
-    {
-      color: red;
-      text-align: left; 
-    }
+    <!--BELOW IS THE HEADER AREA-->
 
-    
-</style>
+</header> 
 
 <body>
 
-<h1>WELCOME EVERYONE "僕のウェブサイトがみんようこそ"</h1>
+<!--THIS IS FOR DIVISION ONLY-->
+<hr id="L2">
 
-<div style="text-align: center;">
-<form action="">
-
-    <label for="fname">First name:</label><br>
-    <style>
-      fname
-      {
-align-items: left
-;
-      }
-    </style>
-    <br> <input type="text" id="fname" name="fname"><br>
-   <label for="lname">Last name:</label><br>
-    <br><input type="text" id="lname" name="lname">
-
-<!-- <style> "This is for the style of the label trial"
-  label
-  {
-    color: rgb(236, 240, 242);
-    align-content: center 100% ;
-  }
-
-  </style> -->
-  <div style="align-items: center;">
-
-   <br><input type="submit" value="Submit"><br>
-  </div>
-    <label for="Welcome" >Your are: </label>
-    <output name ="" for ="fname lname"> </output>
-  </form>
-
+<div style="padding-left:16px">
+  <h2>Responsive Search Bar</h2>
+  <p>Navigation bar with a search box and a submit button inside of it.</p>
+  <p>Resize the browser window to see the responsive effect.</p>
 </div>
+
 <hr>  <!--THIS IS FOR thematic break or horizontal rule -->
 
     <title>Login #1</title>
-    <h2>Simple login system</h2>
+    <h2   style="color: aqua;">Simple login system </h2>
+  
 
     <div style= "text-align: center;" form=" color:  yellow;">
     <form>
@@ -99,13 +106,16 @@ align-items: left
        <label for="text1">Username:</label>
 
        <input type="text" name="text1" id="username">
-       <label for="text2">Password:</label>
+      <!-- <label for="text2">Password:</label> -->
 
-       <input type="text" name="text2" id="password"><br>
-
-      <br> <button type="button" id="submitBtn">login</button> <br>
+       <!-- <input type="text" name="text2" id="password" ><br> -->
+        <input type="password" >
+      
+        <br> <button type="button" id="submitBtn">login</button> <br>
     </form>
   </div>
+
+  <input type="password" >
 <hr>
    <!--window.onload = function()
     {
@@ -131,7 +141,7 @@ align-items: left
 
 
 <div style="text-align:left", style="color: rgb(242, 245, 248)">    
-  <a href="https://www.google.com">GOOGLE</a><br>
+  <a href="https//GOOGLE.com">GOOGLE</a><br>
 <!--
 <style>
  a1
@@ -154,6 +164,7 @@ align-items: left
 </div>
   
 
+
 <!-- <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
     <input type="range" id="a" value="50">
     +<input type="number" id="b" value="25">
@@ -175,4 +186,42 @@ align-items: left
 
 </body>
 
+
+<input type="date">
+<input type="datetime-local">
+<input type="month">
+<input type="week">
+
+<input type="submit">
+
 </html>
+
+
+
+
+<!-- THIS IS FOR HTML WITH JAVA SCRIPT-->
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the radio button to toggle between password visibility:</p>
+
+Password: <input type="password" value="FakePSW" id="myInput"><br><br>
+<input type="checkbox" onclick="myFunction()">Show Password
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+
+</body>
+</html>
+-->
