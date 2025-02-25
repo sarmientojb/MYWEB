@@ -1,0 +1,122 @@
+.banner
+    {
+     height: 100vh;
+     overflow: hidden;
+     position: relative;
+
+    }
+
+    .banner .ITEM
+    {
+     background-color: none; 
+      width: 500px;
+      height: 500px;
+      position: absolute;
+      bottom: 170px;
+      left:50%;
+      transform: translate(-50%);
+      z-index: 1;
+      transition:  0.7; /*part of rotation*/
+      --left: 0px; 
+      display: flex;
+    }
+
+    .banner .ITEM .Object1{
+      background:
+       url(test1.jpg) var(--left) 0, /*Part of rotation*/
+        url(tin-mockup.png);
+    
+      background-size:  100%;
+      width: 350px;
+      height: 350px;
+      aspect-ratio: 2/4;
+      background-blend-mode: multiply;
+      mask-image: url(tin-mockup.png); 
+      mask-size: auto 100%; 
+      /* this is for ration function */
+      transition: 0.7s;
+      /*transition: absolute;
+      left: 50%;
+      transform: translate(-50%);*/
+  }
+
+      .banner .ITEM:hover
+      {
+ --left: -100px;
+ transform: translate(-50%) translate(-120px)
+      }
+/*
+.banner .DESIGN
+ {
+position: absolute;
+inset: 0 0 0 0;
+pointer-events: none;
+ }
+
+ 
+ .banner .rock img 
+ {
+  position: absolute;
+  transition: 0.7s;
+  pointer-events: none;
+
+ }
+
+ .banner .rock img:nth-child(1)
+ {
+  height: 170px;
+  left: 50%;
+  transform: translate(-50);
+  botton: -30px;
+}
+
+.banner:has(.ITEM:hover).rock img:nth-child(1)
+{
+  transform: translate(-50%) translaterY(50px)
+}
+
+.banner .rock img:nth-child(2)
+ {
+  height: 50%;
+  left: 0;
+  bottom: 0;
+}
+
+.banner:has(.ITEM:hover).rock img:nth-child(2)
+{
+  transform: translate(-100px) translaterY(100px);
+}
+
+.banner .rock img:nth-child(2)
+{
+ height: 100%;
+ right: 0;
+bottom: -100px;
+rotate: -25deg;
+}
+
+.banner:has(.ITEM:hover).rock img:nth-child(2)
+{
+  transform: translate(100px) translaterY(100px);
+}
+  */
+
+/*Transition to new item
+.banner.ITEM .DESIGN:nth-child(2)
+{
+opacity: 0;
+}
+
+
+.banner.ITEM:hover .DESIGN:nth-child(2)
+{
+opacity: 1;
+}
+
+*/
+
+
+p
+{
+  text-align: center;
+}
