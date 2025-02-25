@@ -5,63 +5,87 @@
 <head>
    
   <title>JAY</title>
-   <link rel="shortcut icon" type="x-icon" href="JAY.jpg">
+  <link rel="shortcut icon" type="x-icon" href="ANIME.jpg">
+
    <link rel="stylesheet" href="STYLE.CSS"/>
 
    <body>
 
-    
-<h1 id="TC">WELCOME EVERYONE "僕のウェブサイトがみんようこそ"</h1>
-
-<div class="topnav">
+  <div class="topnav">
+    <div class="topnavdesign">
   <a class="active" href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
+  <a class="about">About</a>
+  <a class="#contact">Contact</a>
+  <a class="C1">Movies</a>
+  <a class="C2">Gallery</a>
+  <a class="C3">Songs</a>
+  <a class="C4">Games</a>
+</div>
   <div class="search-container">
     <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
+      <input type="text" placeholder="Type here.." name="search">
+      <button type="submit">Search<i class="fa fa-search"></i></button>
     </form>
   </div>
 </div>
 
-<hr id="L1"> 
+<div class="H">
+<h2>WELCOME EVERYONE</h2>
+<p>僕のウェブサイトがみんようこそ</p>
+</div>
+
 
 </head>
 <body>
-<div  class="main">
-  <div class="TILES">
-    <div class="icon">
-         <h1 class="logo">JEISARU</h1>
-     </div>
-  </div>       
 
-<input type="datetime-local">
-<input type="month">
-<input type="week">
+      
+<div button class="LOG">Login 
+ 
+<div class="LoginForm">
+  <form target="_blank"></form> <!-- from target = "_blank" ===adding new tab====-->
+     
+<label id="fname">First name:</label><br>
+      
+    <!-- maxlength="8" minlenght --> <!--THIS IS numbers of letters-->
+  
+      <!-- placeholder="First Name"-->
+        <!-- THIS IS FOR  putting names inside the text box-->
+  
+       <!--"readonly" just to ready only-->
+      <!-- required --> <!--THIS IS FOR requiring to inter or filled out the text box-->
+  
+  <!-- input type = "email"--> <!--required to inout email -->
+      
+    <br> <input type="text" id="fname" name="fname"><br>
+    <br><label id="lname">Last Name:</label><br>
+    <br><input type="text" id="lname" name="lname"><br>
 
-<input type="submit">
+    <br><input type="submit" id="Submit" value="Submit"><br>
+ 
+    <br><label for="Welcome" >Your are: </label>
+    <output name ="" for ="fname lname"> </output>
+  </form>
 
-   
-  <div style="text-align: left">
-    <form target="_blank"></form>
-      <!-- from target = "_blank" ===adding new tab====--> 
-    <input type="date">
- <label for="fname">First name:</label><br>
-        
-      <!-- maxlength="8" minlenght --> <!--THIS IS numbers of letters-->
+</div>
+
+</div>
+
+
+<div class="banner">
+  <div class="ITEM">
+
+    <div class="Object1"></div>
+ 
+  <div class="DESIGN">
+  
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">  </div>
     
-        <!-- placeholder="First Name"-->
-          <!-- THIS IS FOR  putting names inside the text box-->
-    
-         <!--"readonly" just to ready only-->
-        <!-- required --> <!--THIS IS FOR requiring to inter or filled out the text box-->
-    
-    <!-- input type = "email"--> <!--required to inout email -->
-        
-        <br> <input type="text" id="fname" name="fname"><br>
-        <label for="lname"></label>Last Name:</label><br>
-        <br><input type="text" required ="lname" name="lname">
+    </div>
+  </div>
+
+  
     
     <!-- <style> "This is for the style of the label trial"
       label
@@ -73,19 +97,7 @@
       </style> -->
       
     
-       <br><input type="submit" value="Submit"><br>
-     
-        <label for="Welcome" >Your are: </label>
-        <output name ="" for ="fname lname"> </output>
-      </form>
-    
-    </div>
-  
 
-<h1 id="C1">MOVIES</h1>
-<h1 id="C2">GALLERY</h1>
-<h1 id="C3">SONGS</h1>
-<h1 id="C4">GAMES</h1>
 
     <!--BELOW IS THE HEADER AREA-->
 
@@ -93,31 +105,39 @@
 
 <body>
 
-<!--THIS IS FOR DIVISION ONLY-->
-<hr id="L2">
+<div Class="INFO">
+  <h2>Fell Free to explore more</h2>
+  <p>Navigation bar with a search box and a submit button inside of it.</p>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
 
 <hr>  <!--THIS IS FOR thematic break or horizontal rule -->
 
-    <title>Login #1</title>
-    <h2   style="color: aqua;">Simple login system </h2>
-  
-
-    <div style= "text-align: center;" form=" color:  yellow;">
+<div class="Admin1">
+  <h2 >ADMIN LOGIN</h2>
+  <div class="Admin2">
+   
     <form>
      
-       <label for="text1">Username:</label>
+      <label for="text1">Username:</label>
 
-       <input type="text" name="text1" id="username">
-      <!-- <label for="text2">Password:</label> -->
+      <br><input type="text" name="text1" id="username"><br>
+     <!-- <label for="text2">Password:</label> -->
 
-       <!-- <input type="text" name="text2" id="password" ><br> -->
-        <input type="password" >
-      
-        <br> <button type="button" id="submitBtn">login</button> <br>
-    </form>
+     <label for="text1">Password:</label>
+
+      <!-- <input type="text" name="text2" id="password" ><br> -->
+      <br> <input type="password" ><br>
+     
+       <br> <button type="button" id="submitBtn">login</button> <br>
+   </form>
   </div>
 
-  <input type="password" >
+    
+    
+  </div>
+
+
 <hr>
    <!--window.onload = function()
     {
@@ -137,13 +157,29 @@
   -->
 
 <!--=========THIS SECTION IF FOR THE WEBLINK ====== -->
-<h3>IF YOU WANT TO SEARCH <br> THE LINK BELOW</h3>
-
-<h3>"Way to google"</h3>
 
 
-<div style="text-align:left", style="color: rgb(242, 245, 248)">    
-  <a href="https//GOOGLE.com">GOOGLE</a><br>
+<div class="Links1">
+  
+<h3>LINKS</h3>
+
+<Div class="GoodL">
+  <br><a href="https//GOOGLE.com">GOOGLE</a><br>
+  <br><a href="https://YOUTUBE.com">YOUTUBE</a><br>
+  <br><a href="https://facebook.com">FACEBOOK</a><br>
+  <br><a href="https://twitter.com">TWITTER</a>
+
+</Div>
+
+ <div class="BadL">
+  <h6>"XXX 止めてください！！！"</h6>
+  <a href="https://pornhub.com/">PORNHUB</a><br>
+ <br> <a href="https://yaoimangaonline.com/tag/bara/">BARA PICS</a><br>
+  <br><a href="https://men.com/">MEN</a><br>
+
+ </div>
+
+</div> 
 <!--
 <style>
  a1
@@ -153,15 +189,9 @@
     text-align: center;
   }
 </style> -->
-  <a href="https://YOUTUBE.com">YOUTUBE</a><br>
   
-  <a href="https://facebook.com">FACEBOOK</a><br>
-  <a href="https://twitter.com">TWITTER</a><br>
     
-<h6>"XXX 止めてください！！！"</h6>
-     <a href="https://pornhub.com/">PORNHUB</a><br>
-     <a href="https://yaoimangaonline.com/tag/bara/">BARA PICS</a><br>
-     <a href="https://men.com/">MEN</a><br>
+
   <!-- more links here -->
 </div>
   
@@ -185,11 +215,12 @@
 </style>
 <!--======= THIS IS FOR THE HEADING STYLE ======-->
 
-<div style="padding-left:16px">
-  <h2>Responsive Search Bar</h2>
-  <p>Navigation bar with a search box and a submit button inside of it.</p>
-  <p>Resize the browser window to see the responsive effect.</p>
-</div>
+
+         
+  
+  </div>
+  <!-- FOR OUTER DESIGN-->
+ 
 
 
 </body>
@@ -228,3 +259,4 @@ function myFunction() {
 </body>
 </html>
 -->
+
