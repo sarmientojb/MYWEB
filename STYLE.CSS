@@ -1,5 +1,5 @@
 
-{box-sizing: border-box;} 
+{box-sizing: border-box;}
 
 .H /* Header of Kanji */
 {
@@ -101,18 +101,22 @@ padding: "padding-left:16px";
 .LOG
 {
 border-color: rgb(239, 237, 245);
-border-width: 2px;
+border-width: 5px;
 border-style: solid;
 background-color: gray;
 color: aqua;
 text-align: center;
 position: absolute;
-height: 200px;
-width: 200px;
+height: 260px;
+width: 250px;
 position: absolute;
-left: 30px;
+left: 0px;
 top: 150px;
+margin-left: 3%;
+margin-right: 5%;
+
 }
+
 
 .LoginForm #fname
 {
@@ -120,6 +124,7 @@ top: 150px;
   border-color: black;
   background-color: darkgray;
   color: white;
+
 
 }
 
@@ -144,27 +149,42 @@ top: 150px;
   
 .INFO  /* For the below details */
 {
-  border-style: ridge;
-  padding-left:16px;
-  height: 150px;
-  width: 700px;
+  background: url(test1.jpg);
+  background-size: 50%;
+  text-align: center;
+  border-style: groove;
+  border-color: magenta;
+  border-width: 5px;
+  color: magenta;
+  height: 250px;
+  width: 20%;
+  top: 160px;
   position: absolute;
-  left: 30px;
-  top: 500px;
+  left:  25%;
+  right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom:5%;
+
 }
-
-
 .Admin1
 {
   text-align: center;
   border-style: groove;
   border-color: magenta;
+  border-width: 5px;
   color: magenta;
-  height: 150px;
-  width: 200px;
-  left: 550px;
-  top: 150px;
+  height: 260px;
+  width: 250px;
+  right: 0px;
+  top: 160px;
   position: absolute;
+  margin-left: 5%;
+  margin-right: 3%;
+ 
 }
 
 
@@ -176,8 +196,8 @@ top: 150px;
   color: rgb(139, 185, 231);
   text-align: center;
   position: absolute;
-  left: 30px;
-  top: 670px;
+  right:  450px;
+  top: 600px;
   height: 150px;
   width: 715px;
 
@@ -226,8 +246,8 @@ body
      height: 200vh;
      overflow: hidden;
      position: inherit;
-     left: 90px;
-     top: -20px;
+     left: 20px;
+     top: 200px;
 
     }
 
@@ -238,8 +258,8 @@ body
       height: 500px;
       position: absolute;
       bottom: 200px;
-      left:65%;
-      top: 25%;
+      left: 35%;
+      top: 55%;
       transform: translate(-50%);
       z-index: 1;
       transition:  0.10; /*part of rotation*/
