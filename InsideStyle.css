@@ -28,13 +28,13 @@ background-color: gray;
 color: aqua;
 position: absolute;
 top: 150px;
-text-align: center;
+
 width: 87%;
 Padding: 2%;
 margin: 0 auto;
 */
 
-
+text-align: center;
 }
 
 .Admin1 label
