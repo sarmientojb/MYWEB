@@ -38,23 +38,23 @@ margin: 0 auto;
 }
 
 .Admin1 label
-{
+{/*
     
     width: 20%;
     font-size: large;
     display: inline-block;
     position: absolute;
-   /* left: 30%;*/
+   left: 30%;*/
 
 }
 
 .Admin1 input
-{   
+{   /*
     border: solid;
     border-color: black;
     width: 10.5%;
     position: absolute;
-    left: 45%;
+    left: 45%;*/
 
 }
 
@@ -62,7 +62,7 @@ hr{
     width: 20%;
 }
 .Admin1 button
-{
+{/*
     border-style: ridge;
     background-color: #ddd;
     font-size: large;
@@ -79,24 +79,24 @@ hr{
     position: absolute;
     left: 46%;
     top: 50%;
-    padding: 1%;
+    padding: 1%;*/
    
 
 }
 
 #Forgot
-{
+{/*
     position: absolute;
   
     left: 52%;
-    top: 45%;
+    top: 45%;*/
 }
  #SignUp
-{
+{/*
     position: absolute;
     left: 52.5%;
     top: 60%;
-
+*/
 }
 
 
