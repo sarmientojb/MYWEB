@@ -3,10 +3,7 @@ body
 
     background-image: url(test1.jpg);
     border-style: ridge;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    bottom:  5%;
+   
 }
 
 h1
