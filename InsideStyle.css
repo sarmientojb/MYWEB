@@ -2,101 +2,83 @@ body
 {
 
     background-image: url(test1.jpg);
-    border-style: ridge;
-   
+    height: fit-content auto;
+    width: fit-content auto;
 }
 
 h1
 {
-    border: black;
+    border-style: solid;
+    border-width: 10;
+    color:magenta;
+    border: white;
     background-color: skyblue;
     background-size: 100%;
     text-align: center;
     margin:  0%;
-  
+    height: 70px;
+    position:static;
 }
 
-
-
-.Admin1
+.Admin1 h2
 {
-/*
-border-color: magenta;
-border-width: 5px;
-border-style: solid;
-background-color: gray;
+
+text-align: center;
+position: static;
 color: aqua;
-position: absolute;
-top: 150px;
 
-width: 87%;
-Padding: 2%;
-margin: 0 auto;
-*/
+}
 
+
+.Admin2 
+{
 text-align: center;
-}
 
-.Admin1 label
-{/*
-    
-    width: 20%;
-    font-size: large;
-    display: inline-block;
-    position: absolute;
-   left: 30%;*/
-text-align: center;
-}
-
-.Admin1 input
-{   /*
-    border: solid;
-    border-color: black;
-    width: 10.5%;
-    position: absolute;
-    left: 45%;*/
-
-}
-
-hr{
-    width: 20%;
-}
-.Admin1 button
-{/*
-    border-style: ridge;
-    background-color: #ddd;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 2px 2px;
-    cursor: pointer;
-    border-radius: 16px;
-    width: 9%;
-    position: absolute;
-    left: 46%;
-    top: 50%;
-    padding: 1%;*/
-   
-
-}
-
-#Forgot
-{/*
-    position: absolute;
   
-    left: 52%;
-    top: 45%;*/
 }
- #SignUp
-{/*
-    position: absolute;
-    left: 52.5%;
-    top: 60%;
-*/
+
+.button1
+{
+    border-color: black;
+    border-style: ridge;
+    float:left;
+    left: 50%;
+    height:50px;
+    width: 100px;   
+    text-align: center;
+    position: fixed;
+    
+   background-color: #ddd;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: large;
+  margin-left: -100px;
+}
+.button2
+{
+    border-color: black;
+    border-style: ridge;
+    float: left;
+    left: 50%;
+    height:50px;
+    width: 100px;  
+    text-align: center;
+    position: fixed;
+  font-size: large;
+  background-color: #ddd;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+  border-radius: 16px;
+  
 }
 
 
