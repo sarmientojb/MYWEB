@@ -10,28 +10,33 @@
 <h1>よこそう</h1>
 
 <div>
-
-  <button  onclick="document.getElementById('id0l')
-  .style.display='block'" >Login</button>
+  
+  <button  onclick="document.getElementById('id01')
+  .style.display='block'" 
+>Login</button>
 
 </div>
 <div id="id01" class="modal">
+ 
+  <form class="modal-content animate"
   
-  <form class="modal-content animate" action="/action_page.php"  method="post">
+  action="/action_page.php"
+
+   method="post"></a>
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="ANIME1.jpg" alt="Avatar" class="avatar">
     </div>
-
+   
     <div class="container">
       <label for="uname"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required><br>
 
      <br> <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required> <br>
-        
+      <a href="HOME.html">
       <br><button type="submit" id="Logind">Login</button>
-      
+ 
       <label>
         <br> <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
@@ -44,6 +49,7 @@
  
   </div>
   </form>
+
 </div>
 
 <script>
