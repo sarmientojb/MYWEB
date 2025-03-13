@@ -2,8 +2,8 @@
 
 
 body {font-family: Arial, Helvetica, sans-serif;
-  background-image: url(japanese.png);
-  background-size: cover;
+  background-image: url(ABSTRACT.jpg) ;
+  background-size:contain;
   * {box-sizing: border-box;}
 
 }
@@ -24,12 +24,9 @@ button{
   background: #587286;
   border:0;
   font-weight:100;
-  font-size: x-large;
+  font-size: xx-large;
   text-transform: uppercase;
-  border-radius: 40px;
-  border-style: solid;
-  border-width: 1px;
-
+ 
 }
 button:hover{
   background: #3B5C76;
@@ -43,30 +40,18 @@ h1
   
   text-align: center;
   color: white;
-  font-size:xx-large;
-  margin-top: 20%;
+  font-size: x-large;
 }
 
-label [for="uname"],label [for="psw"]
-{
-  width: 20%;
-  padding: 12px 12;
-  margin: 5px 5;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  
 
-}
 /* Full-width input fields */
 input[type=text], input[type=password] {
-  width: 20%;
-  padding: 12px 12px;
-  margin: 10px 10;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  
 }
 
 /* Set a style for all buttons */
@@ -78,10 +63,10 @@ input[type=text], input[type=password] {
   background-color: #04AA6D;
   color: white;
   padding: 14px 20px;
-  margin: 10px 10;
+  margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
   font-size: large;
   text-align: center;
 }
@@ -119,7 +104,7 @@ img.avatar {
 .container {
   padding: 50px;
   background-image: url(Background.jpg);
-  text-align: center;
+  
 }
 
 .container1
@@ -145,9 +130,7 @@ span.psw {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 60px;
 }
 
 /* Modal Content/Box */
