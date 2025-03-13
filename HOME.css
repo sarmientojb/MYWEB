@@ -10,8 +10,9 @@
     font-family: Arial;
     padding: 10px;
     background-image: url(Background.jpg);
-
-    background-size: 100px;  
+    
+    background-size: cover;
+    
     
   }
 
@@ -148,3 +149,5 @@
       width: 100%;
     }
   }
+
+  
