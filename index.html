@@ -29,19 +29,31 @@
     </div>
    
     <div class="container">
-      <label for="uname"><b>Username</b></label>
+      <label for="uname"><b>Username/Email</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required><br>
 
      <br> <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required> <br>
-    
+      <input type="password" placeholder="Enter Password" name="psw" required id="password1"> <br>
+      <input type="checkbox" onclick="myFunction()">Show Password
       <br><button type="submit" id="Logind">Login</button>
  
+
       <label>
         <br> <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
     </div>
 
+
+<script>
+function myFunction() {
+  var x = document.getElementById("password1");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
    
       <br><div class="container1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" 
