@@ -142,11 +142,12 @@ footer {
   color: white;
   position: absolute;
   top: 250px;
-  left: 35%;
+  right: 270px;
   height: fit-content;
- transform: translateX(-50%) translateY(-45);
+ transform: translateX(-50%) translateY(-75%);
  opacity: 0.9;
  border-color: gray;
  border-style: solid;
  border-radius: 40px;
+ margin: 20px;
 }
