@@ -144,7 +144,7 @@ footer {
   top: 200px;
  left: 600px;
   height: fit-content;
- transform: translateX(-250px) translateY(-200px -200px);
+ transform: translateX(-250px) translateY(-200px);
  opacity: 0.9;
  border-color: gray;
  border-style: solid;
