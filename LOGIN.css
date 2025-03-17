@@ -116,7 +116,7 @@ border-radius: 15px;
   margin: 5px;
   position:absolute;
   top: 70%;
-  left:30%;
+  left:27%;
   transform: translateX(-30%) translateY(-70%);
   text-align: center;
 
@@ -137,9 +137,9 @@ border-radius: 15px;
 {
   margin: 5px;
   position:absolute;
-  top: 70%;
+  top: 69%;
   left:65%;
-  transform: translateX(-30%) translateY(-70%);
+  transform: translateX(-30%) translateY(-69%);
   text-align: center;
  
 }
