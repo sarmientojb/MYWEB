@@ -110,19 +110,50 @@ border-radius: 15px;
 }
 
 /* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 10%;
-  padding: 10px;
-  top: 80%;
-  color: white;
+
+.column1
+{
+  margin: 5px;
+  position:absolute;
+  top: 70%;
+  left:30%;
+  transform: translateX(-30%) translateY(-70%);
+  text-align: center;
+
 }
+
+.column2
+{
+  margin: 5px;
+  position:absolute;
+  top: 70%;
+  left:50%;
+  transform: translateX(-50%) translateY(-70%);
+  text-align: center;
+ 
+}
+  
+
+
+.column3
+{
+  margin: 5px;
+  position:absolute;
+  top: 70%;
+  right:25%;
+  transform: translateX(-25%) translateY(-70%);
+  text-align: center;
+ 
+}
+
 .Anime
 {
   width: 50px;;
    height: 50px;
    border-style: solid;
    border-color: gainsboro;
+   border-radius: 15px;
+   padding: 10%;
 }
 
 .Photo
@@ -131,6 +162,8 @@ border-radius: 15px;
   height: 50px;
   border-style: solid;
   border-color: gainsboro;
+  border-radius: 15px;
+  padding: 10%;
 }
 
 .Porn
@@ -139,34 +172,36 @@ border-radius: 15px;
   height: 50px;
   border-style: solid;
   border-color: gainsboro;
+  border-radius: 15px;
+  padding: 10%;
+
+  
 }
 /* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
+   
   }
 }
-
+/*
 .foot1
 
 {
-  position: absolute;
+  position:absolute;
   top: 70%;
-  left: 83%;
-  transform: translateX(-50%) translateY(-70%);
-  width: 100%;
+  left:50%;
+  width: 50%;
   text-align: center;
-  display: inline-block;
+  display: inline-table;
+  transform: translateX(-50%) translateY(-70%);
+  
 
 }
-
+*/
 .foot2 {
   background-image: url(japanese.png);
   text-align: center;
@@ -181,7 +216,7 @@ border-radius: 15px;
   border-color: gray;
   border-style: solid;
   border-radius: 40px;
-  margin: 5 px;
+  margin: 5px;
   display:inline;
   width: 80%;
 }
