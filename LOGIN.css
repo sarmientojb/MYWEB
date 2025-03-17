@@ -135,11 +135,11 @@ border-radius: 15px;
 
 .column3
 {
-  margin: 5px;
+  margin: 10px;
   position:absolute;
-  top: 69%;
+  top: 70%;
   left:65%;
-  transform: translateX(-30%) translateY(-69%);
+  transform: translateX(-30%) translateY(-73%);
   text-align: center;
  
 }
@@ -171,7 +171,7 @@ border-radius: 15px;
   border-style: solid;
   border-color: gainsboro;
   border-radius: 15px;
-  padding: 10%;
+  padding: 15%;
 
   
 }
