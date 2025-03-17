@@ -3,8 +3,8 @@
 
 body {font-family: Arial, Helvetica, sans-serif;
   background-image: url(Background.jpg) ;
-  background-size: none;
-
+  background-size: auto;
+  background-repeat: no-repeat;
 
   * {box-sizing: border-box;}
   
@@ -141,10 +141,10 @@ footer {
   background-color: DarkSalmon;
   color: white;
   position: absolute;
-  top: 200px;
- left: 600px;
+  top: 250px;
+  right: 50px;
   height: fit-content;
- transform: translateX(-250px) translateY(-200px);
+ transform: translateX(-50%) translateY(-75%);
  opacity: 0.9;
  border-color: gray;
  border-style: solid;
