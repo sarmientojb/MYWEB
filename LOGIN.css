@@ -1,20 +1,20 @@
 
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+
+    font-family: Arial;
+    padding: 10px;
+    background-image: url(Background.jpg);
+
+    background-size: cover;
 
 
-body  { 
-  /*
-  background: url(Background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;*/
+  }
 
-    background: url(Background.jpg); 
-    background-repeat: no-repeat;
-    
-    background-size:auto;
 
-  *  {box-sizing: border-box;}
-
-}
 
 
 .head{
