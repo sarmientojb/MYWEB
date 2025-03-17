@@ -18,6 +18,7 @@ body {font-family: Arial, Helvetica, sans-serif;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   margin: none;
+  font-size: xx-small;
 }
 
 .Pop-Up
@@ -45,7 +46,7 @@ body {font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: small;
   text-align: center;
-  margin: none;
+  margin: 0%;
 }
 
 .open-button:hover
@@ -68,10 +69,8 @@ body {font-family: Arial, Helvetica, sans-serif;
 .fa {
   padding: 0.6px;
   font-size: 30px;
-  width: 50px;
-  text-decoration: none;
-  
- 
+  width: 40px;
+  margin: 0%;
 
 }
 .fa:hover {
@@ -133,6 +132,6 @@ footer {
   border-style: solid;
   border-radius: 40px;
   margin: 5px;
-  display:inline-block;
+  display:inline;
   width: 50%;
 }
