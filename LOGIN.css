@@ -13,6 +13,9 @@ body  {
     -o-background-size: cover;
     background-size: cover;
 
+ *  {box-sizing: border-box;}
+
+  
 }
 
 
