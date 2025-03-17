@@ -6,11 +6,21 @@ body {font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   height: max-content;
-
-  * {box-sizing: border-box;}
-  
-
 }
+  .bg {
+    /* The image used */
+    background-image: url("Background.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
 
 .head{
   text-align: center;
