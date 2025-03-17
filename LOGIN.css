@@ -117,11 +117,29 @@ border-radius: 15px;
   top: 80%;
   color: white;
 }
-.column .Anime
+.Anime
 {
-  
+  width: 100px;;
+   height: 50px;
+   border-style: solid;
+   border-color: gainsboro;
 }
 
+.Photo
+{
+  width: 100px;;
+  height: 50px;
+  border-style: solid;
+  border-color: gainsboro;
+}
+
+.Porn
+{
+  width: 100px;;
+  height: 50px;
+  border-style: solid;
+  border-color: gainsboro;
+}
 /* Clear floats after the columns */
 .row::after {
   content: "";
