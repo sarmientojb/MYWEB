@@ -105,21 +105,21 @@ border-radius: 15px;
 .fa-google {
   background: #dd4b39;
   color: white;
-  margin: 5 px;
+  margin: 5px;
   border-radius: 15px;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 30.30%;
-  padding: 15px;
+  width: 10%;
+  padding: 10px;
   top: 80%;
   color: white;
 }
 .Anime
 {
-  width: 100px;;
+  width: 50px;;
    height: 50px;
    border-style: solid;
    border-color: gainsboro;
@@ -127,7 +127,7 @@ border-radius: 15px;
 
 .Photo
 {
-  width: 100px;;
+  width: 50px;;
   height: 50px;
   border-style: solid;
   border-color: gainsboro;
@@ -135,7 +135,7 @@ border-radius: 15px;
 
 .Porn
 {
-  width: 100px;;
+  width: 50px;;
   height: 50px;
   border-style: solid;
   border-color: gainsboro;
