@@ -1,190 +1,99 @@
+<!DOCTYPE html>
+<html>
 
-*  {box-sizing: border-box;}
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="x-icon" href="ANIME.jpg">
+<link rel="stylesheet" href="LOGIN.css">
 
-body  { 
-  /*
-  background: url(Background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;*/
 
-    background: url(BUE.jpg); 
-      background-size: 100vw 100vh;
-      background-repeat: no-repeat;
+  
+  </head>
+  <div class="head">
+  <h2>みんなさんよこそう</h2>
+</div>
+
+  <body>  
+    <h1 style="text-align: center; color: rgb(214, 216, 218);">Want to Play just click the back ground image</h1>
+
+
+    <video autoplay muted loop id="myVideo">
+        <source src="animevideo.mp4" type="video/mp4">
+      </video>
+
+
+  <!--THIS IS FOR THE LOGIN HOME BUTTON-->
+  <div class="Pop-Up"  >
+  <a  id="HOMEPAGE"  target="_self" href="HOME.html">
+  <button class="open-button" type="button"    
+  style="color: white;" >Log In</button>
+  </div>
+  
+  
+  <div class="Music">
+  <a onclick="myAudioFunction('JEI');">
+      <img src="JEI.png" style="height: 100px; width: 200px;    position: fixed;
+      top: 80%;
+      left: 50%;
       position: fixed;
+      border-radius: 80%;
+      border-style: solid;
+      border-color: aqua;
+      transform: translateX(-50%) translateY(-70%);">
+
+  </a>
+  <a onclick="myAudioFunction('B');">
+      <img src="B.jpg">
+  </a>
+  <script>
+      var aAudio = new Audio('supernatural.mp3');
+      var bAudio = new Audio('b.mp3');
+      function myAudioFunction(letter) {
+          if(letter == 'JEI') {
+              aAudio.play();
+          } else if(letter == 'b') {
+              bAudio.play();
+          }
+      }
+  </script>
+
+</div>
+
+
+
+  </body>
+
+    <footer class="foot1">
   
-}
-
-
-.head{
-  text-align: center;
-  position: fixed;
-  top: 5%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-5%);
-  margin: none;
-  font-size: xx-small;
-  color: white;
-}
-
-.Pop-Up
-{
-  text-align: center;
-  position: fixed;
-  top: 35%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-20%);
-  width: 150px;
-  height: 50px;
-  margin: 0%;
-  padding: 0%;
-}
-/*FOR THE LOG IN BUTTON DESIGN*/
-.open-button
-{
-  border-style: solid;
-  border-color: aqua;
-  padding: 10px;
-  cursor: pointer;
-  width: 100%;
-  border-radius: 25%;
-  background-color: grey;
-  text-transform: uppercase;
-  font-size: small;
-  text-align: center;
-  margin: 0%;
-}
-
-.open-button:hover
-{
-  opacity: 1px;
-}
-
-
-.fa:hover {
-  opacity: 0.9;
-}
-
-
-.fa-facebook {
-background: #3B5998;
-color: white;
-}
-
-.fa-twitter {
-background: #55ACEE;
-color: white;
-}
-
-.fa-youtube {
-background: #dd4b39;
-color: white;
-}
-
-.fa-instagram {
-background: #007bb5;
-color: white;
-}
-
-.fa-google {
-background: #bb0000;
-color: white;
-
-}
-
-
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 60px;
-  text-decoration: none;
-  margin: 5px 20px;
-  border-radius: 15px;
-}
-
-.Music
-{
-
-
-}
-
-/* Create three equal columns that floats next to each other */
-
-.column1
-{
-  margin: 5px;
-  position:fixed;
-  top: 60%;
-  left:30%;
-  transform: translateX(-30%) translateY(-70%);
-  text-align: center;
-  color: white;
-
-}
-
-.column2
-{
-  margin: 5px;
-  position:fixed;
-  top: 60%;
-  left:50%;
-  transform: translateX(-50%) translateY(-70%);
-  text-align: center;
-  color: white;
-}
-
-.column3
-{
-  margin: 10px;
-  position:fixed;
-  top: 60%;
-  left:70%;
-  transform: translateX(-30%) translateY(-73%);
-  text-align: center;
-  color: white;
-}
- 
-
-.Anime
-{
-  width: 50px;
-   height: 50px;
-   border-style: solid;
-   border-color: gainsboro;
-   border-radius: 15px;
-   padding: 10%;
-}
-
-.Photo
-{
-  width: 50px;
-  height: 50px;
-  border-style: solid;
-  border-color: gainsboro;
-  border-radius: 15px;
-  padding: 10%;
-}
-
-.Porn
-{
-  width: 50px;
-  height: 50px;
-  border-style: solid;
-  border-color: gainsboro;
-  border-radius: 15px;
-  padding: 15%;
+      <div class="column1"><h2>Watch</h2> <p >Anime</p>
+      <a  href="https://www.anime.com/"><img class="Anime" src="AnimeP.gif"  ></a>
+       </div>
   
-}
+        
+      <div class="column2"> <h2>Gallery</h2> <p>Photos</p>
+      <a href="https://gallery.anime-online.com/"><img  class="Photo" src="PhotoA.gif" alt="Trulli" ></a>
+      </div>
+          
+      <div class="column3"> <h2>Porn</h2> <p>XXX</p>
+      <a href="  https://www.animeporn.tube/"><img class="Porn" src="Sex.gif" alt="Trulli"></a>
+      </div>
+    
+      </div>
+  
+  </footer>
+  
 
-.foot3
-{
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-image: url(japanese.png);
-text-align: center;
-border-style:solid;
-border-color: aqua;
-border-radius: 15px;
+    <footer class="foot3">
+	<center>
+		<!-- Add font awesome icons -->
+<a href="https://facebook.com" class="fa fa-facebook"></a> 
+<a href="https://twitter.com" class="fa fa-twitter"></a> 
+<a href="https://youtube.com" class="fa fa-youtube"></a> 
+<a href="https://instagram.com" class="fa fa-instagram"></a>
+<a href="https://gmail.com" class="fa fa-google"></a> 
+	</center>
+</footer>
 
-}
+
+</html>
