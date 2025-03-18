@@ -103,12 +103,7 @@ color: white;
 
 .Music
 {
-  position: fixed;
-  top: 20%;
-  right: 0%;
-  height: 10%;
-  border-radius: 40px;
-  border-color: aqua;
+
 
 }
 
@@ -119,7 +114,7 @@ color: white;
   margin: 5px;
   position:fixed;
   top: 60%;
-  left:27%;
+  left:30%;
   transform: translateX(-30%) translateY(-70%);
   text-align: center;
   color: white;
