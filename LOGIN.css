@@ -1,32 +1,22 @@
 
-* {
-    box-sizing: border-box;
-  }
+*  {box-sizing: border-box;}
 
-  body {
+body  { 
+  /*
+  background: url(Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
 
-    font-family: Arial;
-    padding:0px;
-    background-image: url(Background.jpg);
-
-    background-size: cover;
-
-
-  }
-
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px max-height:800px) {
-  .body{   
-      width: 100%;
-      padding: 0;
-    }
-  }
-
+    background: url(Background.jpg); 
+      background-size: 100vw 100vh;
+      background-repeat: no-repeat;
+  
+}
 
 
 .head{
   text-align: center;
-  position: absolute;
+  position: fixed;
   top: 5%;
   left: 50%;
   transform: translateX(-50%) translateY(-5%);
@@ -37,7 +27,7 @@
 .Pop-Up
 {
   text-align: center;
-  position: absolute;
+  position: fixed;
   top: 20%;
   left: 50%;
   transform: translateX(-50%) translateY(-20%);
@@ -67,62 +57,55 @@
   opacity: 1px;
 }
 
-.fa {
-  padding: 5px;
-  font-size: 15px;
-  text-decoration: none;
-  width: 40px;
-  margin: 0%;
 
-}
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
+
 
 .fa-facebook {
 background: #3B5998;
 color: white;
-margin: 5 px;
-border-radius: 15px;
-
-
 }
 
 .fa-twitter {
 background: #55ACEE;
 color: white;
-margin: 5 px;
-border-radius: 15px;
 }
 
 .fa-youtube {
-  background: #bb0000;
-  color: white;
-  margin: 5 px;
-  border-radius: 15px;
+background: #dd4b39;
+color: white;
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
-  margin: 5 px;
-  border-radius: 15px;
+background: #007bb5;
+color: white;
 }
-
 
 .fa-google {
-  background: #dd4b39;
-  color: white;
-  margin: 5px;
+background: #bb0000;
+color: white;
+
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 60px;
+  text-decoration: none;
+  margin: 5px 20px;
   border-radius: 15px;
 }
+
 
 /* Create three equal columns that floats next to each other */
 
 .column1
 {
   margin: 5px;
-  position:absolute;
+  position:fixed;
   top: 70%;
   left:27%;
   transform: translateX(-30%) translateY(-70%);
@@ -133,7 +116,7 @@ border-radius: 15px;
 .column2
 {
   margin: 5px;
-  position:absolute;
+  position:fixed;
   top: 70%;
   left:50%;
   transform: translateX(-50%) translateY(-70%);
@@ -144,9 +127,9 @@ border-radius: 15px;
 .column3
 {
   margin: 10px;
-  position:absolute;
+  position:fixed;
   top: 70%;
-  left:65%;
+  left:70%;
   transform: translateX(-30%) translateY(-73%);
   text-align: center;
  
@@ -180,44 +163,19 @@ border-radius: 15px;
   border-color: gainsboro;
   border-radius: 15px;
   padding: 15%;
-
   
 }
-/* Clear floats after the columns */
 
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-
-/*
-.foot1
-
+.foot3
 {
-  position:absolute;
-  top: 70%;
-  left:50%;
-  width: 50%;
-  text-align: center;
-  display: inline-table;
-  transform: translateX(-50%) translateY(-70%);
-  
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-image: url(japanese.png);
+text-align: center;
+border-style:solid;
+border-color: aqua;
+border-radius: 15px;
 
-}
-*/
-.foot2 {
-  background-image: url(japanese.png);
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-40%);
-  opacity: 0.9;
-  border-color: gray;
-  border-style: solid;
-  border-radius: 40px;
-  margin: 5px;
-  display:inline;
-  width: 80%;
 }
