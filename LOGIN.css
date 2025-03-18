@@ -7,9 +7,10 @@ body  {
   background-repeat: no-repeat;
   background-size: cover;*/
 
-    background: url(Background.jpg); 
+    background: url(BUE.jpg); 
       background-size: 100vw 100vh;
       background-repeat: no-repeat;
+      position: fixed;
   
 }
 
@@ -22,13 +23,14 @@ body  {
   transform: translateX(-50%) translateY(-5%);
   margin: none;
   font-size: xx-small;
+  color: white;
 }
 
 .Pop-Up
 {
   text-align: center;
   position: fixed;
-  top: 20%;
+  top: 35%;
   left: 50%;
   transform: translateX(-50%) translateY(-20%);
   width: 150px;
@@ -99,6 +101,16 @@ color: white;
   border-radius: 15px;
 }
 
+.Music
+{
+  position: fixed;
+  top: 20%;
+  right: 0%;
+  height: 10%;
+  border-radius: 40px;
+  border-color: aqua;
+
+}
 
 /* Create three equal columns that floats next to each other */
 
@@ -106,10 +118,11 @@ color: white;
 {
   margin: 5px;
   position:fixed;
-  top: 70%;
+  top: 60%;
   left:27%;
   transform: translateX(-30%) translateY(-70%);
   text-align: center;
+  color: white;
 
 }
 
@@ -117,27 +130,28 @@ color: white;
 {
   margin: 5px;
   position:fixed;
-  top: 70%;
+  top: 60%;
   left:50%;
   transform: translateX(-50%) translateY(-70%);
   text-align: center;
- 
+  color: white;
 }
 
 .column3
 {
   margin: 10px;
   position:fixed;
-  top: 70%;
+  top: 60%;
   left:70%;
   transform: translateX(-30%) translateY(-73%);
   text-align: center;
- 
+  color: white;
 }
+ 
 
 .Anime
 {
-  width: 50px;;
+  width: 50px;
    height: 50px;
    border-style: solid;
    border-color: gainsboro;
@@ -147,7 +161,7 @@ color: white;
 
 .Photo
 {
-  width: 50px;;
+  width: 50px;
   height: 50px;
   border-style: solid;
   border-color: gainsboro;
@@ -157,7 +171,7 @@ color: white;
 
 .Porn
 {
-  width: 50px;;
+  width: 50px;
   height: 50px;
   border-style: solid;
   border-color: gainsboro;
