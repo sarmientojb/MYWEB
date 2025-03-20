@@ -36,14 +36,15 @@ body  {
 
 .navbar a {
   float: left;
-  padding: 15px;
+  padding: 20px;
   color: white;
   text-decoration: none;
   font-size: 17px;
-  width: 25%; /* Four links of equal widths */
-  text-align: center;
+  width: 20%; /* Four links of equal widths */
+  object-position: center;
   font-size: x-large;
   text-transform: uppercase;
+  margin: 0%;
 }
 
 .navbar a:hover {
