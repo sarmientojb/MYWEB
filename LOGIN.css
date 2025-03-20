@@ -7,8 +7,6 @@ body  {
   background-repeat: no-repeat;
   background-size: cover;*/
 
-  
-  
 }
 @media (max-width: 768px){
 #myVideo   {
@@ -22,14 +20,59 @@ body  {
 
 }
 }
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  height: 9%;
+  background-image: url(japanese.png);
+  text-align: center;
+  border-style:solid;
+  border-color: aqua;
+  border-radius: 15px;
+  position: fixed;
+
+}
+
+.navbar a {
+  float: left;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+  font-size: x-large;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  width: 25%;
+  height: 100%;
+
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
 .head{
   text-align: center;
  transform: translateX(-50%) translateY(-5%);
   margin: none;
   font-size: xx-small;
-  
   position: fixed;
-  top: 5%;
+  top: 13%;
   left: 50%;
 background-image: url(Background.jpg);
 text-align: center;
@@ -39,16 +82,18 @@ border-radius: 15px;
 
 }
 h1
-{
-
+{ 
+  
   position: fixed;
-  top: 10%;
+  top: 20%;
   left: 50%;;
   text-align: center;
   transform: translateX(-50%) translateY(-5%);
+   text-align: center; 
+   color: rgb(214, 216, 218);
 }
 
-.Pop-Up
+/*.Pop-Up
 {
   text-align: center;
   position: fixed;
@@ -59,9 +104,9 @@ h1
   height: 50px;
   margin: 0%;
   padding: 0%;
-}
+} */
 /*FOR THE LOG IN BUTTON DESIGN*/
-.open-button
+/*.open-button
 {
   border-style: solid;
   border-color: aqua;
@@ -80,7 +125,7 @@ h1
 {
   opacity: 1px;
 }
-
+*/
 
 .fa:hover {
   opacity: 0.9;
@@ -119,8 +164,9 @@ color: white;
   font-size: 30px;
   width: 60px;
   text-decoration: none;
-  margin: 5px 20px;
+  margin: 5px 5px;
   border-radius: 15px;
+  height: 9%;
 }
 
 .Music
@@ -135,7 +181,7 @@ color: white;
 {
   margin: 5px;
   position:fixed;
-  top: 60%;
+  top: 50%;
   left:25%;
   transform: translateX(-30%) translateY(-70%);
   text-align: center;
@@ -147,7 +193,7 @@ color: white;
 {
   margin: 5px;
   position:fixed;
-  top: 60%;
+  top: 50%;
   left:50%;
   transform: translateX(-50%) translateY(-70%);
   text-align: center;
@@ -158,7 +204,7 @@ color: white;
 {
   margin: 10px;
   position:fixed;
-  top: 60%;
+  top: 50%;
   left:70%;
   transform: translateX(-30%) translateY(-73%);
   text-align: center;
@@ -168,8 +214,8 @@ color: white;
 
 .Anime
 {
-  width: 50px;
-   height: 50px;
+  width: 100px;
+  height: 100px;
    border-style: solid;
    border-color: gainsboro;
    border-radius: 15px;
@@ -178,8 +224,8 @@ color: white;
 
 .Photo
 {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border-style: solid;
   border-color: gainsboro;
   border-radius: 15px;
@@ -188,8 +234,8 @@ color: white;
 
 .Porn
 {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border-style: solid;
   border-color: gainsboro;
   border-radius: 15px;
@@ -202,7 +248,7 @@ color: white;
 position: fixed;
 left: 50%; transform: translateX(-50%);
 bottom: 0;
-width: 90%;
+width: 100%;
 background-image: url(Background.jpg);
 text-align: center;
 border-style:solid;
