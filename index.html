@@ -10,12 +10,21 @@
 
   
   </head>
-  <div class="head">
-  <h2>みんなさんよこそう</h2>
-</div>
+  <div class="navbar">
+    <a class="active" href="#">Home</a> 
+    <a href="#">Search</a> 
+    <a href="#">Contact</a> 
+    <a href="#">Login</a>
+  </div>
+  
 
   <body>  
-    <h1 style="text-align: center; color: rgb(214, 216, 218);">Want to Play just click the back ground image</h1>
+
+    <div class="head">
+        <h2>みんなさんよこそう</h2>
+      </div>
+    <h1 style="font-size: large;" >Want to Play just click the 
+     back ground image</h1>
 
 
     <video autoplay muted loop id="myVideo">
@@ -24,16 +33,16 @@
 
 
   <!--THIS IS FOR THE LOGIN HOME BUTTON-->
-  <div class="Pop-Up"  >
+  <!--<div class="Pop-Up"  >
   <a  id="HOMEPAGE"  target="_self" href="HOME.html">
   <button class="open-button" type="button"    
   style="color: white;" >Log In</button>
-  </div>
+  </div> -->
   
   
   <div class="Music">
   <a onclick="myAudioFunction('JEI');">
-      <img src="JEI.png" style="height: 100px; width: 200px;    position: fixed;
+      <img src="JEI.png" style="height: 50px; width: 100px;    position: fixed;
       top: 80%;
       left: 50%;
       position: fixed;
@@ -52,6 +61,7 @@
       function myAudioFunction(letter) {
           if(letter == 'JEI') {
               aAudio.play();
+             
           } else if(letter == 'b') {
               bAudio.play();
           }
