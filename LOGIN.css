@@ -4,6 +4,8 @@
 body  { 
  
 background-color: aqua;
+max-width: 100%;
+display:fit-content;
 
 }
 
