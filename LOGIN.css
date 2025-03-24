@@ -4,20 +4,12 @@
 body  { 
  
 background-color: aqua;
-height: 100vw;
-width: 100vh;
 
 
 }
 
-   /* Default styles *
+   
 
-/* Styles for mobile landscape */
-@media (orientation: landscape) and (max-width: 768px) {
-    body {
-      width: 100%; /* Adjust styles for mobile landscape */
-    }
-}
 
 h2{
   color: beige;
