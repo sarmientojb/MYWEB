@@ -2,134 +2,70 @@
 *  {box-sizing: border-box;}
 
 body  { 
-  /*
-  background: url(Background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;*/
-
-}
-@media (max-width: 768px){
-#myVideo   {
-  position: fixed; /* Or absolute, depending on your layout */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* Make sure the video is behind the content */
-  object-fit: cover;
-
-}
-}
-.navbar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
-  height: 9%;
-  background-image: url(japanese.png);
-  text-align: center;
-  border-style:solid;
-  border-color: aqua;
-  border-radius: 15px;
-  position: fixed;
-
-}
-
-.navbar a {
-  float: left;
-  padding: 5px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  width: 20%; /* Four links of equal widths */
-  object-position: center;
-  font-size: x-large;
-  text-transform: uppercase;
-  margin: 0%;
-}
-
-.navbar a:hover {
-  background-color: #000;
-}
-
-.navbar a.active {
-  background-color: #04AA6D;
-  width: 25%;
-  height: 100%;
-
-}
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-}
-
-.head{
-  text-align: center;
- transform: translateX(-50%) translateY(-5%);
-  margin: none;
-  font-size: xx-small;
-  position: fixed;
-  top: 13%;
-  left: 50%;
-background-image: url(Background.jpg);
-text-align: center;
-border-style:solid;
-border-color: aqua;
-border-radius: 15px;
-
-}
-h1
-{ 
   
-  position: fixed;
-  top: 20%;
-  left: 50%;;
-  text-align: center;
-  transform: translateX(-50%) translateY(-5%);
-   text-align: center; 
-   color: rgb(214, 216, 218);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
 }
 
-/*.Pop-Up
+*  {box-sizing: border-box;}
+
+body  { 
+ 
+background-color: aqua;
+
+}
+
+h2{
+  color: beige;
+  text-shadow: 2px 2px 4px aqua;
+  padding: 0;
+}
+
+
+.ANIME
 {
-  text-align: center;
-  position: fixed;
-  top: 35%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-20%);
-  width: 150px;
-  height: 50px;
-  margin: 0%;
-  padding: 0%;
-} */
-/*FOR THE LOG IN BUTTON DESIGN*/
-/*.open-button
-{
+ position: absolute;
+ left: 50%; 
+  top: 20px;
+  transform: translateX(-50%);
+  border-radius: 15px;
+  border-color: aliceblue;
   border-style: solid;
-  border-color: aqua;
-  padding: 10px;
+  border-width: 5px;
+ 
+}
+.LOG
+{
+  position:  fixed;
+  left: 37%; 
+  top: 55%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 25%;
+  
+}
+ 
+.LOGIN
+{
+  font-size: 16px;
+  padding: 20px 20px;
+  font-size: 16px;
   cursor: pointer;
   width: 100%;
-  border-radius: 25%;
-  background-color: grey;
-  text-transform: uppercase;
-  font-size: small;
-  text-align: center;
-  margin: 0%;
+  border-radius: 60px;
+  border-style: solid;
+  border-color: black;
+  
 }
-
-.open-button:hover
+.LOGIN :hover
 {
-  opacity: 1px;
+  opacity: 0.5;
 }
-*/
 
 .fa:hover {
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 
@@ -161,99 +97,56 @@ color: white;
 
 
 .fa {
-  padding: 10px;
+  padding: 0.1px;
   font-size: 30px;
   width: 60px;
   text-decoration: none;
-  margin: 5px 5px;
-  border-radius: 15px;
-  height: 9%;
-}
-
-.Music
-{
-
-
-}
-
-/* Create three equal columns that floats next to each other */
-
-.column1
-{
-  margin: 5px;
-  position:fixed;
-  top: 50%;
-  left:25%;
-  transform: translateX(-30%) translateY(-70%);
-  text-align: center;
-  color: white;
-
-}
-
-.column2
-{
-  margin: 5px;
-  position:fixed;
-  top: 50%;
-  left:50%;
-  transform: translateX(-50%) translateY(-70%);
-  text-align: center;
-  color: white;
-}
-
-.column3
-{
-  margin: 10px;
-  position:fixed;
-  top: 50%;
-  left:70%;
-  transform: translateX(-30%) translateY(-73%);
-  text-align: center;
-  color: white;
-}
- 
-
-.Anime
-{
-  width: 100px;
-  height: 100px;
-   border-style: solid;
-   border-color: gainsboro;
-   border-radius: 15px;
-   padding: 10%;
-}
-
-.Photo
-{
-  width: 100px;
-  height: 100px;
+  margin: 2px 2px;
+  border-radius: 12px;
+  height: 5%;
   border-style: solid;
-  border-color: gainsboro;
-  border-radius: 15px;
-  padding: 10%;
+  border-color: aqua;
 }
 
-.Porn
-{
-  width: 100px;
-  height: 100px;
-  border-style: solid;
-  border-color: gainsboro;
-  border-radius: 15px;
-  padding: 15%;
-  
-}
 
 .foot3
 {
 position: fixed;
-left: 50%; transform: translateX(-50%);
-bottom: 0;
+left: 50%; 
+transform: translateX(-50%);
+bottom: 0%;
 width: 100%;
-background-image: url(Background.jpg);
-text-align: center;
-border-style:solid;
-border-color: aqua;
-border-radius: 15px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+background-color: black;
+align-items: center;
+border-color: orange;
+border-width: 10px;
+border-top-style: solid;
+margin: 0;
 
+}
+.MEDIA
+{
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-color: orange;
+  padding: 0;
+
+}
+.H3
+{
+ border-bottom-style: solid;
+ border-bottom-width: 5px;
+ width: 25%;
+}
+
+aside {
+  color: beige;
+  text-shadow: orange;
+  right: -50%; 
+  transform: translateX(30%);
+  bottom: 0;
+  padding:0;
+ 
 }
