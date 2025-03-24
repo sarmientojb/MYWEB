@@ -4,7 +4,9 @@
 body  { 
  
 background-color: aqua;
-height: 100vh;
+height: 100vw;
+width: 100vh;
+
 
 }
 @media screen and (orientation: landscape) {
@@ -13,6 +15,25 @@ height: 100vh;
     width: 100%; /* Or other adjustments */
     height: auto;
   }
+}
+   /* Default styles */
+   body {
+    width: 100%; /* Or a max-width */
+    /* ... other styles */
+}
+
+/* Styles for smaller screens (e.g., mobile portrait) */
+@media (max-width: 768px) {
+    body {
+        /* Adjust styles for smaller screens */
+    }
+}
+
+/* Styles for mobile landscape */
+@media (orientation: landscape) and (max-width: 768px) {
+    body {
+        /* Adjust styles for mobile landscape */
+    }
 }
 
 h2{
