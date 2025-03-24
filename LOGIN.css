@@ -5,34 +5,17 @@ body  {
  
 background-color: aqua;
 height: 100vw;
-
+width: 100vh;
 
 
 }
-@media screen and (orientation: landscape) {
-  /* Styles for landscape mode */
-  .body{
-    width: 100%; /* Or other adjustments */
-    height: auto;
-  }
-}
-   /* Default styles */
-   body {
-    width: 100%; /* Or a max-width */
-    /* ... other styles */
-}
 
-/* Styles for smaller screens (e.g., mobile portrait) */
-@media (max-width: 768px) {
-    body {
-        /* Adjust styles for smaller screens */
-    }
-}
+   /* Default styles *
 
 /* Styles for mobile landscape */
 @media (orientation: landscape) and (max-width: 768px) {
     body {
-        /* Adjust styles for mobile landscape */
+      width: 100%; /* Adjust styles for mobile landscape */
     }
 }
 
@@ -55,8 +38,8 @@ h2{
   border-width: 5px;
   margin: 0;
   padding: 0;
-  width: fit-content;
-  height: 50vh;
+  
+  
  
 }
 .LOG
