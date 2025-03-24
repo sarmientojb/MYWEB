@@ -9,6 +9,20 @@ display:fit-content;
 
 }
 
+@media only screen and (min-device-width : 768px) and (orientation: landscape)
+ {
+  body {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (orientation: portrait) 
+{
+  body {
+    flex-direction: column;
+  }
+}
+
 h2{
   color: beige;
   text-shadow: 2px 2px 4px aqua;
@@ -19,8 +33,8 @@ h2{
 .ANIME
 {
  position: absolute;
- left: 50%; 
-  top: 20px;
+  left: 50%; 
+  top: 50px;
   transform: translateX(-50%);
   border-radius: 15px;
   border-color: aliceblue;
@@ -28,6 +42,8 @@ h2{
   border-width: 5px;
   margin: 0;
   padding: 0;
+  width: fit-content;
+  height: 50vh;
  
 }
 .LOG
