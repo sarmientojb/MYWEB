@@ -143,7 +143,7 @@ border-width: 10px;
 border-top-style: solid;
 margin: 0;
 padding: 0;
-height: 25%;
+height: 15%;
 }
 .MEDIA
 {
@@ -159,7 +159,7 @@ height: 25%;
 
 .H3
 {
-  position: static;
+   position: static;
    margin-top: 9%;
    padding: 0;
    margin-bottom: 5px;
