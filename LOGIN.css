@@ -47,24 +47,24 @@ h2{
 .video
 {
   position:absolute;
- top: 5px;
- left: 60%;
- transform: translateY(50%);
- transform: translateY(15%);
- border-radius: 15px;
- border-color: #007bb5;
- border-style: solid;
- margin-top: 0;
- width: 190px;
- height: 150px;
- display: block;
- padding-top: 0;
+  top: 50%;
+  left: 60%;
+  transform: translateY(50%);
+  transform: translateY(15%);
+  border-radius: 15px;
+  border-color: #007bb5;
+  border-style: solid;
+  margin-top: -3%;
+  width: 190px;
+  height: 150px;
+  display: block;
+  margin-top: 10%;
 }
 .video1
 {
   position:absolute;
-  top: 30%;
-  left: 60%;
+  top: 50%;
+  left: 10%;
   transform: translateY(50%);
   transform: translateY(15%);
   border-radius: 15px;
