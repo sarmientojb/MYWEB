@@ -1,15 +1,29 @@
 
+*  {box-sizing: border-box;}
 
 body  { 
  
 background-color: aqua;
+height:  100vh;
+width:  100vw;
 
 
 }
 
-   
+   /* Default styles *
 
+/* Styles for mobile landscape */
+@media (orientation: landscape) and (max-width: 1080px) {
+    body {
+      width: 100%; /* Adjust styles for mobile landscape */
+    }
+}
 
+@media (orientation: portrait) and (max-height: 780px){
+  body {
+    height: 100%; /* Adjust styles for mobile landscape */
+  }
+}
 h2{
   color: beige;
   text-shadow: 2px 2px 4px aqua;
@@ -19,15 +33,14 @@ h2{
 
 .ANIME
 {
- position: absolute;
-  left: 50%; 
-  top: 50px;
-  transform: translateX(-50%);
+ position: static;
+ width: 100%; /* Or any desired width */
+ margin: 0 auto;
+
   border-radius: 15px;
   border-color: aliceblue;
   border-style: solid;
   border-width: 5px;
-  margin: 0;
   padding: 0;
   
   
@@ -47,6 +60,7 @@ h2{
  
 .LOGIN
 {
+  background-color: #3B5998;
   font-size: 16px;
   padding: 20px 20px;
   font-size: 16px;
@@ -54,13 +68,14 @@ h2{
   width: 100%;
   border-radius: 60px;
   border-style: solid;
-  border-color: black;
   margin: 0;
+  border-bottom-width: 5px;
+  border-color: rgb(82, 9, 100);
   
 }
 .LOGIN :hover
 {
-  opacity: 0.5;
+  opacity: 0.1;
 }
 
 .fa:hover {
@@ -96,8 +111,8 @@ color: white;
 
 
 .fa {
-  padding: 0.1px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: 15px;
   width: 60px;
   text-decoration: none;
   margin: 2px 2px;
@@ -105,6 +120,10 @@ color: white;
   height: 5%;
   border-style: solid;
   border-color: aqua;
+  display: inline;
+  margin: 3px;
+  border-bottom-width: 5px;
+  border-color: orange;
 }
 
 
@@ -123,29 +142,43 @@ border-color: orange;
 border-width: 10px;
 border-top-style: solid;
 margin: 0;
-
+padding: 0;
+height: 25%;
 }
 .MEDIA
 {
   border-bottom-style: solid;
-  border-bottom-width: 5px;
-  border-color: orange;
   padding: 0;
-
+  position: static;
+  width: 90%;
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  
+  
 }
 .H3
 {
- border-bottom-style: solid;
- border-bottom-width: 5px;
- width: 25%;
+  position: static;
+   margin-top: 9%;
+   
+}
+
+.H2{
+   position: static;
+   margin-top: -17%;
 }
 
 aside {
   color: beige;
   text-shadow: orange;
-  right: -50%; 
-  transform: translateX(30%);
-  bottom: 0;
+  width: 100%;
+  margin: auto;
+  margin-top: 20%;
+  margin-left: 10%;
   padding:0;
+  position: static;
+  font-size: small;
+  margin-top: -7%;
  
 }
