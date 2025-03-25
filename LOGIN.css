@@ -61,7 +61,7 @@ h2{
 .LOGIN
 {
   background-color: #3B5998;
-  font-size: 16px;
+  font-size: 12px;
   padding: 20px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -111,9 +111,9 @@ color: white;
 
 
 .fa {
-  padding: 10px;
+  padding: 9px;
   font-size: 15px;
-  width: 60px;
+  width: 50px;
   text-decoration: none;
   margin: 2px 2px;
   border-radius: 12px;
@@ -121,7 +121,7 @@ color: white;
   border-style: solid;
   border-color: aqua;
   display: inline;
-  margin: 3px;
+  margin: 2px;
   border-bottom-width: 5px;
   border-color: orange;
 }
@@ -166,7 +166,7 @@ height: 25%;
 
 .H2{
    position: static;
-   margin-top: -17%;
+   margin-top: -20%;
 }
 
 aside {
