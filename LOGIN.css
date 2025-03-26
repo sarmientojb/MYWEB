@@ -3,9 +3,14 @@
 
 body  { 
  
-background-color: aqua;
+  height: 55px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red, orange,
+   yellow, green, blue, indigo, violet);
 height:  100vh;
 width:  100vw;
+padding: 10px;
+
 
 
 }
@@ -34,60 +39,80 @@ h2{
 .ANIME
 {
  position: static;
- width: 100%; /* Or any desired width */
+ width: 97%; /* Or any desired width */
  margin: 0 auto;
 
   border-radius: 15px;
-  border-color: aliceblue;
+  border-color: rgb(0, 2, 4);
   border-style: solid;
   border-width: 5px;
-  padding: 0;
+  padding: 10px;
+  
 }
 
+.content
+{
+    width: 97%; 
+    display:flex;
+    margin-left: -10px;
+    margin-top: 40px;
+}
 .video
 {
-  position:absolute;
-  top: 50%;
-  left: 60%;
-  transform: translateY(50%);
-  transform: translateY(15%);
+  position: static;
+  width: 50%;  /* Or any desired width */
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
   border-radius: 15px;
-  border-color: #007bb5;
+  border-color: rgb(2, 8, 13);
   border-style: solid;
-  margin-top: -3%;
-  width: 190px;
-  height: 150px;
-  display: block;
-  margin-top: 10%;
+  border-width: 5px;
+  padding: 10px;
+  size: 100px;
+  margin-left: 5px;
+ 
 }
 .video1
 {
-  position:absolute;
-  top: 50%;
-  left: 10%;
-  transform: translateY(50%);
-  transform: translateY(15%);
+  position: static;
+  width: 50%;  /* Or any desired width */
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
   border-radius: 15px;
-  border-color: #007bb5;
+  border-color: rgb(0, 2, 3);
   border-style: solid;
-  margin-top: -3%;
-  width: 190px;
-  height: 150px;
-  display: block;
-  margin-top: 10%;
- }
+  border-width: 5px;
+  padding: 10px;
+  size: 100px;
+  margin-left: 10px;
+ 
+}
+ 
 
-
+ @media (max-width:767px) {
+  .home1 {
+      position: relative;
+      padding-bottom: 56.25%; /* 16/9 ratio */
+      padding-top: 30px; /* IE6 workaround*/
+      height: 0;
+      overflow: hidden;
+  }
+  .home2 {
+      margin-left: 0;
+  }
+}
 
 
 .LOG
 {
   position:  fixed;
-  left: 37%; 
-  top: 55%;
+  left: 20%; 
+  top: 54%;
   transform: translateX(-50%);
   transform: translateY(-50%);
-  width: 25%;
+  width: 60%;
   margin: 0;
   
 }
@@ -100,11 +125,13 @@ h2{
   font-size: 16px;
   cursor: pointer;
   width: 100%;
-  border-radius: 60px;
-  border-style: solid;
-  margin: 0;
+  border-radius: 80px;
+  border-style: ridge;
+  margin: 5%;
   border-bottom-width: 5px;
-  border-color: rgb(82, 9, 100);
+  border-color: rgb(52, 177, 223);
+  border-width: 5px;
+  height: 10px;
   
 }
 .LOGIN :hover
