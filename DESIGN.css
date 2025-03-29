@@ -14,14 +14,12 @@ yellow, green, blue, indigo, violet);
   margin-top: -10px;
   width: 100%;
   height: 15%;
-  padding: none;
   margin-left: -10px;
   background-color: aqua;
   border-style: solid;
-  border-image:  linear-gradient(to right, red, orange,
-  yellow, green, blue, indigo, violet);
-  ;
   border-width: 5px;
+  border-color: black;
+   
 
 }
 
