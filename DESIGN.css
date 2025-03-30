@@ -1,61 +1,105 @@
 
-body
-{
-background-size: cover;
-background-color: gray;
-background-image: linear-gradient(to right, magenta, skyblue, pink, red, orange,
-yellow, green, blue, indigo, violet);
+
+
+body  { 
+ 
+  height: 55px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red, orange,
+   yellow, green, blue, indigo, violet);
+   height:  100vh;
+   width:  100vw;
+   padding: 10px;
+
+
 
 }
+
+   /* Default styles *
+
+/* Styles for mobile landscape */
+@media (orientation: landscape) and (max-width: 1080px) {
+    body {
+      width: 100%; /* Adjust styles for mobile landscape */
+    }
+}
+
+@media (orientation: portrait) and (max-height: 780px){
+  body {
+    height: 100%; /* Adjust styles for mobile landscape */
+  }
+}
+
 
 .HContainer
 { 
-  position: fixed;
-  margin-top: -10px;
+  position:fixed;
+  margin-top: -40px;
+  margin-left: -20px;
+  margin-right: -20px;
   width: 100%;
-  height: 15%;
-  margin-left: -10px;
+  height: 20%;
+  
   background-color: aqua;
   border-style: solid;
-  border-bottom-width: 10px;
+  border-bottom-width: 20px;
   border-top-width: 10px;
   border-color: rgb(221, 12, 12);
-   
 
 }
 
 
-.HH1
+.HH1 
 {
  position: fixed;
- width: 50%;
- top: 10%;
- left: 30%;
+ margin-top: -1.5%;
+ margin-left: 2%;
+ top: 5%;
+ left: 50%;
  transform: translateX(-50%);
- transform: translatey(-50%);
- margin-top: -10px;
- font-size: 60px;
+ font-size:40px;
  text-align: center;
-
 }
 
-ul.menu {
+.BLogin
+{
     position: fixed;
-    top: 7%;
-    left: 2%;
-    transform: translateX(-50%);
-    transform: translatey(-50%);;
-    width: 100%;
-    max-width: 300px;
+    margin-top: -0.1%;
+    top: 60px;
+    right: 5%;
+    width: 25%;
+    height: 5%;
+    max-width: 100px;
     color: #353b3F;
-    
     background-image: linear-gradient(to right, red, orange,
       yellow, green, blue, indigo, violet);
 
     border-color: black;
     border-style: groove;
     border-radius: 15px;
-    padding: 5px;
+    padding: 0;
+    cursor:pointer;
+}
+.BLogin :hover
+{
+opacity: 0.5;
+}
+
+ul.menu {
+    position: fixed;
+    margin-top: -0.1%;
+    top: 40px;
+    width: 25%;
+    left: 5%;
+    max-width: 150px;
+    color: #353b3F;
+    background-image: linear-gradient(to right, red, orange,
+      yellow, green, blue, indigo, violet);
+
+    border-color: black;
+    border-style: groove;
+    border-radius: 15px;
+    padding: 0;
     cursor:pointer;
 }
 
@@ -77,9 +121,9 @@ ul.menu li {
     left: 0;
     background-image: none;
     border-radius: 1rem;
-    padding: 1rem;
-    transition: all .3s ease;
-    width: 90%;
+    padding: 0;
+    transition: all .1s ease;
+    width: 100%;
 }
 .menu .submenu li {
     color: white;
@@ -90,8 +134,10 @@ ul.menu li {
     
 }
 
+
 .menu .submenu li:nth-child(1):hover {
     background-color: #65D076;
+    
 }
 .menu .submenu li:nth-child(2):hover {
     background-color: #4B82FF;
@@ -106,7 +152,7 @@ ul.menu li {
     background-color: #A073FF;
 }
 
-.menu img {
+.menu p {
     width: 5rem;
     border-radius: 15px;
     transition: transform .2s ease;
@@ -124,48 +170,61 @@ ul.menu li {
 }
   
 
-
-
-.BLogin
-{
-    position: fixed;
-    top: 9%;
-    right: 2%;
-    transform: translateX(-50%);
-    transform: translatey(-50%);
- margin-top: 0;
- background-color: aqua;
- border-style: groove;
- border-width: 5px;
- border-radius: 15px;
- padding: 25px;
- cursor:pointer;
-}
-.BLogin :hover
-{
-opacity: 0.5;
-}
-
 .Gallery 
-{
- 
+{ 
   position: fixed;
-  top: 20%;
-  left: 60%;
-  transform: translatex(-50%);
-  width: 80%;
-  height: 100%;
+  top:62%;
+  transform: translateY(-50%);
+  margin-top: -1%;
+  margin-left: 25%;
+  width: 70%;
+  height: 74%;
+  padding: 0%;
   background-color: #A073FF;
+  text-align: center;
+  overflow-y:scroll;
+  overflow-x:scroll;
+  border-radius: 15px;
+  border-color: magenta;
+  border-style: solid;
+
 }
 
 .Gallery-title
 {
+position: fixed;
 text-align: center;
+left: 50%;
+transform: translateY(-50%);
+margin-left: -60px;
+
+}
+.ANIME
+{
+  position: fixed;
+  text-align: center;
+  left: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin-left: -30px;
 }
 
-.Order
+
+.column {
+ 
+  padding: 10px;
+  margin: 25px;
+
+}
+.row {
+
+ display: inline-block;
+}
+.p1
 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-      
+ width: 300px;
+ height:300px;
+ padding: 0%;
+ margin-left: -50px;
+
 }
