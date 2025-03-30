@@ -17,8 +17,9 @@ yellow, green, blue, indigo, violet);
   margin-left: -10px;
   background-color: aqua;
   border-style: solid;
-  border-width: 5px;
-  border-color: black;
+  border-bottom-width: 10px;
+  border-top-width: 10px;
+  border-color: rgb(221, 12, 12);
    
 
 }
@@ -36,9 +37,6 @@ yellow, green, blue, indigo, violet);
  font-size: 60px;
  text-align: center;
 
- background-image: linear-gradient(to right, red, orange,
-   yellow, green, blue, indigo, violet);
- 
 }
 
 ul.menu {
@@ -50,7 +48,10 @@ ul.menu {
     width: 100%;
     max-width: 300px;
     color: #353b3F;
-    background-color: aqua;
+    
+    background-image: linear-gradient(to right, red, orange,
+      yellow, green, blue, indigo, violet);
+
     border-color: black;
     border-style: groove;
     border-radius: 15px;
@@ -74,11 +75,11 @@ ul.menu li {
     position: absolute;
     top: 50%;
     left: 0;
-    background-color: #353B3F;
+    background-image: none;
     border-radius: 1rem;
     padding: 1rem;
     transition: all .3s ease;
-    width: 70%;
+    width: 90%;
 }
 .menu .submenu li {
     color: white;
@@ -107,6 +108,7 @@ ul.menu li {
 
 .menu img {
     width: 5rem;
+    border-radius: 15px;
     transition: transform .2s ease;
     margin-left: 15px;
 }
@@ -122,21 +124,48 @@ ul.menu li {
 }
   
 
+
+
 .BLogin
 {
     position: fixed;
-    top: 10%;
+    top: 9%;
     right: 2%;
     transform: translateX(-50%);
     transform: translatey(-50%);
  margin-top: 0;
  background-color: aqua;
  border-style: groove;
+ border-width: 5px;
  border-radius: 15px;
- padding: 20px;
+ padding: 25px;
  cursor:pointer;
 }
 .BLogin :hover
 {
 opacity: 0.5;
+}
+
+.Gallery 
+{
+ 
+  position: fixed;
+  top: 20%;
+  left: 60%;
+  transform: translatex(-50%);
+  width: 80%;
+  height: 100%;
+  background-color: #A073FF;
+}
+
+.Gallery-title
+{
+text-align: center;
+}
+
+.Order
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+      
 }
