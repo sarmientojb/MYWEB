@@ -2,7 +2,23 @@
 body
 {
 background-image: linear-gradient(to right, red, blue, yellow, pink);
+
 }
+ /* Default styles *
+
+/* Styles for mobile landscape */
+@media (orientation: landscape) and (max-width: 1080px) {
+    body {
+      width: 100%; /* Adjust styles for mobile landscape */
+    }
+}
+
+@media (orientation: portrait) and (max-height: 780px){
+  body {
+    height: 100%; /* Adjust styles for mobile landscape */
+  }
+}
+
 
 .Info
 {
@@ -48,6 +64,7 @@ height: 100%;;
 
 .Home:hover
 {
+    overflow: visible;
 opacity: 0.5;
 background-color: aqua;
 }
@@ -136,8 +153,9 @@ background-color: forestgreen;
 
 .Pagedetails
 {
+  overflow: hidden;
  position: absolute;
- left:40%;
+ left:30%;
  top: 1%;
  transform: translateX(12%);
  transform: translateY(1%);
