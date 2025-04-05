@@ -2,7 +2,7 @@
 body
 {
 background-image: linear-gradient(to right, red, blue, yellow, pink);
-
+background-size:  cover;
 }
  /* Default styles *
 
@@ -157,13 +157,13 @@ background-color: forestgreen;
  position: absolute;
  left:30%;
  top: 1%;
- transform: translateX(12%);
+ margin-right: 30%;
+ transform: translateX(-50%);
  transform: translateY(1%);
  background-image:url(Background.jpg);
- margin-left: -5px;
  margin-top: -10px;
- width: 950px;
- height: 900px;
+ width: 750px;
+ height: 1500px;
  border-style: solid;
 border-color: black;
 border-width: 5px;
