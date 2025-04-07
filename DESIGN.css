@@ -2,7 +2,7 @@
 body
 {
 background-image: linear-gradient(to right, red, blue, yellow, pink);
-background-size:  cover;
+background-size:  100%;
 
 }
  /* Default styles *
