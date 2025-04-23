@@ -1,4 +1,4 @@
-
+/*
 function myFunction() {
   var x = document.getElementById("MyDiv");
   if (x.style.display === "none") {
@@ -16,6 +16,6 @@ function myFunction() {
   } else {
     x.style.display = "none";
   }
-}
+}*/
 
 
