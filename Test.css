@@ -1,0 +1,328 @@
+
+body
+{
+background-image: linear-gradient(to right, red, blue, yellow, pink);
+background-size:  contain;
+
+}
+ /* Default styles *
+
+/* Styles for mobile landscape */
+@media (orientation: landscape) and (max-width: 1080px) {
+    body {
+      width: 100%; /* Adjust styles for mobile landscape */
+    }
+}
+
+@media (orientation: portrait) and (max-height: 780px){
+  body {
+    height: 100%; /* Adjust styles for mobile landscape */
+  }
+}
+
+
+.Info
+{
+text-align: center;
+padding: 5px;
+margin-bottom: -30px;
+
+}
+.Img
+{
+width: 100px;
+padding: 10px;
+}
+
+
+.Navigation
+{
+background-color: rgb(151, 161, 161);
+border-style: solid;
+border-color: black;
+border-width: 5px;
+height: 500px;
+width: 150px;
+position: absolute;
+
+
+}
+
+.UL
+{
+padding: 20px;
+margin-left: -10px;
+list-style-type: none;
+text-align: center;
+
+}
+
+
+.Home
+{
+    padding: 3px 35px;
+    text-decoration: none;
+    border-style: solid;
+}
+
+.Home:hover
+{
+opacity: 0.5;
+background-color: #00ffff;
+
+}
+
+
+.About
+{ 
+ padding: 3px 34px;
+ text-decoration: none;
+ border-style: solid;
+
+ }
+
+
+
+
+.About:hover
+{
+
+background-color: blue;
+}
+
+
+.Achievements
+{
+   padding: 3px 27px;
+   text-decoration: none;
+   border-style: solid;
+
+
+}
+
+.Achievements:hover
+{
+opacity: 0.5;
+background-color: blueviolet;
+}
+
+.Projects
+{
+   padding: 3px 28px;
+   text-decoration: none;
+   border-style: solid;
+
+}
+
+.Projects:hover
+{
+opacity: 1px;
+background-color: chartreuse;
+}
+
+
+.Dashboard
+{
+  padding: 3px 19px;
+  text-decoration: none;
+  border-style: solid;
+}
+
+
+.Dashboard:hover
+{
+opacity: 0.5;
+background-color: coral;
+}
+
+.Chatroom
+{
+    padding: 3px 21px;
+    text-decoration: none;
+    border-style: solid;
+}
+
+
+.Chatroom:hover
+{
+opacity: 0.5;
+background-color: darkorange;
+}
+
+.Contact
+{
+    padding: 3px 28px;
+    text-decoration: none;
+     border-style: solid;
+}
+
+.Contact:hover
+{
+opacity: 0.5;
+background-color: forestgreen;
+}
+
+.Pagedetails
+{
+
+ position: absolute;
+ top: .2%;
+ margin-left: 100%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(Background.jpg);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 1200px;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
+
+}
+
+.Pagedetails1
+{
+
+ position: absolute;
+ top: .2%;
+ margin-left: 100%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(japanese.png);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 1200px;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
+
+}
+
+
+.Homepage
+{
+ text-align: center;
+}
+
+
+.Picture1
+{
+text-align: center;
+margin-left: -40px;
+border-color: black ;
+border-style: solid;
+width: 100%;
+}
+Picture
+{
+ display:inline;
+ grid-template-rows: repeat(4,1fr) ;
+ margin: 5px;
+ padding: 5px;
+
+}
+
+.Photo1
+{
+width: 250px;
+height: 200px;
+margin: 5px;
+padding: 10px;
+margin-left: -10%;
+}
+
+.Photo2
+{
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.Photo3
+{
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+padding: 10px;
+}
+.Photo4
+{
+    width: 250px;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.VIdeo1
+{
+text-align: center;
+margin-left: -40px;
+border-color: black ;
+border-style: solid;
+width: 100%;
+}
+.VIdeo
+{
+ display:inline;
+ grid-template-rows: repeat(3,1fr) ;
+ margin: 1px;
+ padding: 0.1px;
+}
+
+.video1
+{
+width: 250px;
+height: 200px;
+}
+
+.video2
+{
+    width: 250px;
+    height: 200px;
+}
+
+.video3
+{
+    width: 250px;
+    height: 200px;
+}
+
+
+.Music1
+{
+text-align: center;
+margin-left: -40px;
+border-color: black ;
+border-style: solid;
+width: 100%;
+}
+.Music
+{
+ display:inline;
+ grid-template-rows: repeat(3,1fr) ;
+ margin: 1px;
+ padding: 0.1px;
+}
+
+.music1
+{
+width: 250px;
+height: 200px;
+}
+
+.music2
+{
+    width: 250px;
+    height: 200px;
+}
+
+.music3
+{
+    width: 250px;
+    height: 200px;
+}
