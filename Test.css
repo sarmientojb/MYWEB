@@ -202,6 +202,105 @@ border-width: 5px;
 
 }
 
+.Pagedetails2
+{
+
+ position: absolute;
+ top: .2%;
+ margin-left: 100%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(PhotoA.gif);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 1200px;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
+
+}
+
+.Pagedetails3
+{
+
+ position: absolute;
+ top: .2%;
+ margin-left: 100%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(SCHOOL_ANIME.jpg);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 1200px;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
+
+}
+
+.Pagedetails4
+{
+
+ position: absolute;
+ top: .2%;
+ margin-left: 100%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(GARDEN.jpg);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 1200px;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
+
+}
+
+.Pagedetails5
+{
+
+ position: absolute;
+ top: .2%;
+ margin-left: 100%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(AnimeP.gif);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 1200px;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
+
+}
+
+.Pagedetails6
+{
+
+ position: absolute;
+ top: .2%;
+ margin-left: 100%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(ANIME.jpg);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 1200px;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
+
+}
 
 .Homepage
 {
