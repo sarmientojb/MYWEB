@@ -2,7 +2,7 @@
 body
 {
 background-image: linear-gradient(to right, red, blue, yellow, pink);
-background-size:  contain;
+background-size:  50%;
 
 }
  /* Default styles *
@@ -14,7 +14,11 @@ background-size:  contain;
     }
 }
 
-
+@media (orientation: portrait) and (max-height: 780px){
+  body {
+    height: 100%; /* Adjust styles for mobile landscape */
+  }
+}
 
 
 .Info
