@@ -14,11 +14,7 @@ background-size:  contain;
     }
 }
 
-@media (orientation: portrait) and (max-height: 780px){
-  body {
-    height: 50%; /* Adjust styles for mobile landscape */
-  }
-}
+
 
 
 .Info
