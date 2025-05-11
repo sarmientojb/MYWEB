@@ -1,173 +1,42 @@
 
-body
-{
-background-image: linear-gradient(to right, red, blue, yellow, pink);
-background-size:  contain;
-
-}
- /* Default styles *
-
-/* Styles for mobile landscape */
-@media (orientation: landscape) and (max-width: 1080px) {
-    body {
-      width: 100%; /* Adjust styles for mobile landscape */
-    }
-}
-
-@media (orientation: portrait) and (max-height: 780px){
-  body {
-    height: 100%; /* Adjust styles for mobile landscape */
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
-}
-
-
-.Info
-{
-text-align: center;
-padding: 5px;
-margin-bottom: -30px;
-
-}
-.Img
-{
-width: 100px;
-padding: 10px;
-}
-
-
-.Navigation
-{
-background-color: rgb(151, 161, 161);
-border-style: solid;
-border-color: black;
-border-width: 5px;
-height: 500px;
-width: 150px;
-position: absolute;
-
-
-}
-
-.UL
-{
-padding: 20px;
-margin-left: -10px;
-list-style-type: none;
-text-align: center;
-
-}
-
-
-.Home
-{
-    padding: 3px 35px;
+  
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    margin-left: 100px;
+    padding: 14px 16px;
     text-decoration: none;
-    border-style: solid;
-}
-
-.Home:hover
-{
-opacity: 0.5;
-background-color: #00ffff;
-
-}
-
-
-.About
-{ 
- padding: 3px 34px;
- text-decoration: none;
- border-style: solid;
-
- }
+    font-size: 22px;
+  }
+  
+  .Home a:hover {
+    background-color: #dddddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
 
 
-
-
-.About:hover
-{
-
-background-color: blue;
-}
-
-
-.Achievements
-{
-   padding: 3px 27px;
-   text-decoration: none;
-   border-style: solid;
-
-
-}
-
-.Achievements:hover
-{
-opacity: 0.5;
-background-color: blueviolet;
-}
-
-.Projects
-{
-   padding: 3px 28px;
-   text-decoration: none;
-   border-style: solid;
-
-}
-
-.Projects:hover
-{
-opacity: 1px;
-background-color: chartreuse;
-}
-
-
-.Dashboard
-{
-  padding: 3px 19px;
-  text-decoration: none;
-  border-style: solid;
-}
-
-
-.Dashboard:hover
-{
-opacity: 0.5;
-background-color: coral;
-}
-
-.Chatroom
-{
-    padding: 3px 21px;
-    text-decoration: none;
-    border-style: solid;
-}
-
-
-.Chatroom:hover
-{
-opacity: 0.5;
-background-color: darkorange;
-}
-
-.Contact
-{
-    padding: 3px 28px;
-    text-decoration: none;
-     border-style: solid;
-}
-
-.Contact:hover
-{
-opacity: 0.5;
-background-color: forestgreen;
-}
 
 .Pagedetails
 {
 
  position: absolute;
- top: .2%;
- margin-left: 100%;
+ top: 10%;
+ margin-left: 10%;
  transform: translateX(-50%);
  transform: translateY(1%);
  background-image:url(Background.jpg);
@@ -185,121 +54,126 @@ border-width: 5px;
 .Pagedetails1
 {
 
- position: absolute;
- top: .2%;
- margin-left: 100%;
- transform: translateX(-50%);
- transform: translateY(1%);
- background-image:url(japanese.png);
- background-size: cover;
- background-size: no-repeat;
- margin-top: -20px;
- width: 1200px;
- height: 1500px;
- border-style: solid;
-border-color: black;
-border-width: 5px;
+    position: absolute;
+    top: 10%;
+    margin-left: 10%;
+    transform: translateX(-50%);
+    transform: translateY(1%);
+    background-image:url(Background.jpg);
+    background-size: cover;
+    background-size: no-repeat;
+    margin-top: -20px;
+    width: 1200px;
+    height: 1500px;
+    border-style: solid;
+   border-color: black;
+   border-width: 5px;
+   
 
 }
 
 .Pagedetails2
 {
 
- position: absolute;
- top: .2%;
- margin-left: 100%;
- transform: translateX(-50%);
- transform: translateY(1%);
- background-image:url(PhotoA.gif);
- background-size: cover;
- background-size: no-repeat;
- margin-top: -20px;
- width: 1200px;
- height: 1500px;
- border-style: solid;
-border-color: black;
-border-width: 5px;
+    position: absolute;
+    top: 10%;
+    margin-left: 10%;
+    transform: translateX(-50%);
+    transform: translateY(1%);
+    background-image:url(Background.jpg);
+    background-size: cover;
+    background-size: no-repeat;
+    margin-top: -20px;
+    width: 1200px;
+    height: 1500px;
+    border-style: solid;
+   border-color: black;
+   border-width: 5px;
+   
 
 }
 
 .Pagedetails3
 {
 
- position: absolute;
- top: .2%;
- margin-left: 100%;
- transform: translateX(-50%);
- transform: translateY(1%);
- background-image:url(SCHOOL_ANIME.jpg);
- background-size: cover;
- background-size: no-repeat;
- margin-top: -20px;
- width: 1200px;
- height: 1500px;
- border-style: solid;
-border-color: black;
-border-width: 5px;
+    position: absolute;
+    top: 10%;
+    margin-left: 10%;
+    transform: translateX(-50%);
+    transform: translateY(1%);
+    background-image:url(Background.jpg);
+    background-size: cover;
+    background-size: no-repeat;
+    margin-top: -20px;
+    width: 1200px;
+    height: 1500px;
+    border-style: solid;
+   border-color: black;
+   border-width: 5px;
+   
 
 }
 
 .Pagedetails4
 {
 
- position: absolute;
- top: .2%;
- margin-left: 100%;
- transform: translateX(-50%);
- transform: translateY(1%);
- background-image:url(GARDEN.jpg);
- background-size: cover;
- background-size: no-repeat;
- margin-top: -20px;
- width: 1200px;
- height: 1500px;
- border-style: solid;
-border-color: black;
-border-width: 5px;
+    position: absolute;
+    top: 10%;
+    margin-left: 10%;
+    transform: translateX(-50%);
+    transform: translateY(1%);
+    background-image:url(Background.jpg);
+    background-size: cover;
+    background-size: no-repeat;
+    margin-top: -20px;
+    width: 1200px;
+    height: 1500px;
+    border-style: solid;
+   border-color: black;
+   border-width: 5px;
+   
 
 }
 
 .Pagedetails5
 {
 
- position: absolute;
- top: .2%;
- margin-left: 100%;
- transform: translateX(-50%);
- transform: translateY(1%);
- background-image:url(AnimeP.gif);
- background-size: cover;
- background-size: no-repeat;
- margin-top: -20px;
- width: 1200px;
- height: 1500px;
- border-style: solid;
-border-color: black;
-border-width: 5px;
+    position: absolute;
+    top: 10%;
+    margin-left: 10%;
+    transform: translateX(-50%);
+    transform: translateY(1%);
+    background-image:url(Background.jpg);
+    background-size: cover;
+    background-size: no-repeat;
+    margin-top: -20px;
+    width: 1200px;
+    height: 1500px;
+    border-style: solid;
+   border-color: black;
+   border-width: 5px;
+   
 
 }
 
 .Pagedetails6
 {
 
- position: absolute;
- top: .2%;
- margin-left: 100%;
- transform: translateX(-50%);
- transform: translateY(1%);
- background-image:url(ANIME.jpg);
- background-size: cover;
- background-size: no-repeat;
- margin-top: -20px;
- width: 1200px;
- height: 1500px;
- border-style: solid;
-border-color: black;
-border-width: 5px;
-
+    position: absolute;
+    top: 10%;
+    margin-left: 10%;
+    transform: translateX(-50%);
+    transform: translateY(1%);
+    background-image:url(Background.jpg);
+    background-size: cover;
+    background-size: no-repeat;
+    margin-top: -20px;
+    width: 1200px;
+    height: 1500px;
+    border-style: solid;
+   border-color: black;
+   border-width: 5px;
+   
 }
 
 .Homepage
