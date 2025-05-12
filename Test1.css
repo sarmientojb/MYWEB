@@ -2,6 +2,10 @@
 .body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+
+    height: inherit;
+    width: inherit;
+
   }
   
 .topnav {
@@ -13,7 +17,7 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    margin-left: 100px;
+    
     padding: 14px 16px;
     text-decoration: none;
     font-size: 22px;
@@ -36,14 +40,13 @@
 
  position: absolute;
  top: 10%;
- margin-left: 10%;
  transform: translateX(-50%);
  transform: translateY(1%);
  background-image:url(Background.jpg);
  background-size: cover;
  background-size: no-repeat;
  margin-top: -20px;
- width: 1200px;
+ width: 100%;
  height: 1500px;
  border-style: solid;
 border-color: black;
@@ -53,63 +56,60 @@ border-width: 5px;
 
 .Pagedetails1
 {
+ position: absolute;
+ top: 10%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(Background.jpg);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 100%;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
 
-    position: absolute;
-    top: 10%;
-    margin-left: 10%;
-    transform: translateX(-50%);
-    transform: translateY(1%);
-    background-image:url(Background.jpg);
-    background-size: cover;
-    background-size: no-repeat;
-    margin-top: -20px;
-    width: 1200px;
-    height: 1500px;
-    border-style: solid;
-   border-color: black;
-   border-width: 5px;
    
 
 }
 
 .Pagedetails2
 {
+ position: absolute;
+ top: 10%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(Background.jpg);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 100%;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
 
-    position: absolute;
-    top: 10%;
-    margin-left: 10%;
-    transform: translateX(-50%);
-    transform: translateY(1%);
-    background-image:url(Background.jpg);
-    background-size: cover;
-    background-size: no-repeat;
-    margin-top: -20px;
-    width: 1200px;
-    height: 1500px;
-    border-style: solid;
-   border-color: black;
-   border-width: 5px;
-   
 
 }
 
 .Pagedetails3
 {
 
-    position: absolute;
-    top: 10%;
-    margin-left: 10%;
-    transform: translateX(-50%);
-    transform: translateY(1%);
-    background-image:url(Background.jpg);
-    background-size: cover;
-    background-size: no-repeat;
-    margin-top: -20px;
-    width: 1200px;
-    height: 1500px;
-    border-style: solid;
-   border-color: black;
-   border-width: 5px;
+    
+ position: absolute;
+ top: 10%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(Background.jpg);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 100%;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
    
 
 }
@@ -117,20 +117,21 @@ border-width: 5px;
 .Pagedetails4
 {
 
-    position: absolute;
-    top: 10%;
-    margin-left: 10%;
-    transform: translateX(-50%);
-    transform: translateY(1%);
-    background-image:url(Background.jpg);
-    background-size: cover;
-    background-size: no-repeat;
-    margin-top: -20px;
-    width: 1200px;
-    height: 1500px;
-    border-style: solid;
-   border-color: black;
-   border-width: 5px;
+    
+ position: absolute;
+ top: 10%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(Background.jpg);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 100%;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
+
    
 
 }
@@ -138,41 +139,40 @@ border-width: 5px;
 .Pagedetails5
 {
 
-    position: absolute;
-    top: 10%;
-    margin-left: 10%;
-    transform: translateX(-50%);
-    transform: translateY(1%);
-    background-image:url(Background.jpg);
-    background-size: cover;
-    background-size: no-repeat;
-    margin-top: -20px;
-    width: 1200px;
-    height: 1500px;
-    border-style: solid;
-   border-color: black;
-   border-width: 5px;
-   
+ position: absolute;
+ top: 10%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(Background.jpg);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 100%;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
+
 
 }
 
 .Pagedetails6
 {
 
-    position: absolute;
-    top: 10%;
-    margin-left: 10%;
-    transform: translateX(-50%);
-    transform: translateY(1%);
-    background-image:url(Background.jpg);
-    background-size: cover;
-    background-size: no-repeat;
-    margin-top: -20px;
-    width: 1200px;
-    height: 1500px;
-    border-style: solid;
-   border-color: black;
-   border-width: 5px;
+ position: absolute;
+ top: 10%;
+ transform: translateX(-50%);
+ transform: translateY(1%);
+ background-image:url(Background.jpg);
+ background-size: cover;
+ background-size: no-repeat;
+ margin-top: -20px;
+ width: 100%;
+ height: 1500px;
+ border-style: solid;
+border-color: black;
+border-width: 5px;
+
    
 }
 
