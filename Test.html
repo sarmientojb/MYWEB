@@ -12,9 +12,7 @@
 
 <body>
 
-  <div class="topnav">
-                  
-            
+  <div class="topnav">        
            
       <a  class="Home"  onclick="document.getElementById('id01').style.display='block'">LOGIN </a> 
 
@@ -28,15 +26,18 @@
         </div>
     
         <div class="container">
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
+          <label class= "Name"for="uname"><b>Username</b></label> <br>
+          <input type="text" placeholder="Enter Username" name="uname" required><br>
     
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
+          <label class= "Pass" for="psw"><b>Password</b></label><br>
+          <input type="password" placeholder="Enter Password" name="psw" required><br><br>
          
-     <a class="Enter" href="Test1.html"  type="submit">ENTER</a><br>
+        
+    <a class="Enter" href="Test.html"><b>LOGIN</b></a>
+    
+    <br>
 
-         <br> <label>
+         <br><br> <br> <label>
             <input class="Remember"  type="checkbox" checked="checked" 
             name="remember"> Remember me </label><br>
         </div>
@@ -45,7 +46,7 @@
           <button type="button" 
           onclick="document.getElementById('id01').style.display='none'" 
           class="cancelbtn">Cancel</button>
-          <span class="psw">Forgot password?</span>
+          <button class="psw" href="">Forgot password?</button>
         </div>
       </form>
     </div>
@@ -65,7 +66,8 @@
         
       </div>
 
- 
+
+
 </body>
 
 </html>

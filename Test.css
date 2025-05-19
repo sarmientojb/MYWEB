@@ -1,10 +1,23 @@
 
 body {
 
-     background-image:linear-gradient(to right, black, grey,skyblue, rgb(110, 119, 148) , blue, skyblue,
-      grey, rgb(110, 119, 148,), black);
-     background-size: contain;
+     background-color:rgb(20, 171, 241);
 }
+
+  /* Default styles *
+  
+  /* Styles for mobile landscape */
+  @media (orientation: landscape) and (max-width: 1080px) {
+      body {
+        width: 100%; /* Adjust styles for mobile landscape */
+      }
+  }
+  
+  @media (orientation: portrait) and (max-height: 780px){
+    body {
+      height: 100%; /* Adjust styles for mobile landscape */
+    }
+  }
 
 .topnav {
     overflow: hidden;
@@ -22,7 +35,7 @@ body {
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
   
    
@@ -33,40 +46,37 @@ body {
     color: black;
   }
   
-  .topnav a.active {
+  .topnav .a.active {
     background-color: #04AA6D;
     color: white;
-  }
+  } 
 
 
-
-
-
-  /* Default styles *
-  
-  /* Styles for mobile landscape */
-  @media (orientation: landscape) and (max-width: 1080px) {
-      body {
-        width: 100%; /* Adjust styles for mobile landscape */
-      }
-  }
-  
-  @media (orientation: portrait) and (max-height: 780px){
-    body {
-      height: 100%; /* Adjust styles for mobile landscape */
-    }
-  }
     
     /* Full-width input fields */
     input[type=text], input[type=password] {
-      width: 100%;
+      width: 50%;
       padding: 12px 20px;
       margin: 8px 0;
+      margin-left: 25%;
       display: inline-block;
       border: 1px solid #ccc;
       box-sizing: border-box;
+      text-align: center;
     }
-    .Login
+ 
+    .Name 
+
+    {
+      margin-left: 45%;
+    }
+    .Pass
+
+    {
+      margin-left: 45%;
+    }
+    
+    .Login /*This is for the image on the top*/
     {
         margin: 0;
         position: absolute;
@@ -87,26 +97,28 @@ body {
         
     }
     /* Set a style for all buttons */
-    .Enter{
+    .Enter
+    {
+
+      margin-left: 45%;
       background-color: #04AA6D;
       color: white;
-      padding: 14px 25px;
       border: none;
       cursor: pointer;
-      width: 25%;
-      text-align: center;
-     margin-left: auto;
+      width: 10%;
+     
+   
+  
     }
 
     .Remember
     {
-      
-     background-color: #04AA6D;
+      margin-left: 25%;
       color: white;
       padding: 14px 14px;
       border: none;
       cursor: pointer;
-      text-align: center;
+    
 
     }
     
@@ -117,6 +129,7 @@ body {
     /* Extra styles for the cancel button */
     .cancelbtn {
       width: auto;
+      margin-left: 25%;
       padding: 10px 18px;
       background-color: #f44336;
     }
@@ -126,6 +139,7 @@ body {
       text-align: center;
       margin: 24px 0 12px 0;
       position: relative;
+      
     }
     
     img.avatar {
@@ -137,9 +151,11 @@ body {
       padding: 16px;
     }
     
-    span.psw {
-      float: right;
-      padding-top: 16px;
+    .psw {
+      width: auto;
+      margin-left: 25%;
+      padding: 10px 18px;
+      background-color: #cc1515;
     }
     
     /* The Modal (background) */
