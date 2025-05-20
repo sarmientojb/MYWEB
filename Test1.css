@@ -7,6 +7,18 @@
     width: inherit;
 
   }
+
+    @media (orientation: landscape) and (max-width: 1080px) {
+      body {
+        width: 100%; /* Adjust styles for mobile landscape */
+      }
+  }
+  
+  @media (orientation: portrait) and (max-height: 780px){
+    body {
+      height: 100%; /* Adjust styles for mobile landscape */
+    }
+  }
   
 .topnav {
     overflow: hidden;
@@ -42,7 +54,7 @@
  top: 10%;
  transform: translateX(-50%);
  transform: translateY(1%);
- background-image:url(Background.jpg);
+background-color: rgb(175, 20, 241);
  background-size: cover;
  background-size: no-repeat;
  margin-top: -20px;
@@ -60,7 +72,7 @@ border-width: 5px;
  top: 10%;
  transform: translateX(-50%);
  transform: translateY(1%);
- background-image:url(Background.jpg);
+background-color: rgb(101, 241, 20);
  background-size: cover;
  background-size: no-repeat;
  margin-top: -20px;
