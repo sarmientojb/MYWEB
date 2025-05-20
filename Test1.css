@@ -1,11 +1,11 @@
 
-@media (orientation: landscape ) and (orientation: portrait) and (max-width: 1000px) and (max-height: 1000px){
+
    .body 
    {
    background-color: skyblue;
-
+   background-size: cover;
   }
-}
+
 
     
   
@@ -45,13 +45,13 @@
 .Pagedetails
 {
  position: absolute;
- top: 15%;
+ top: 10%;
  transform: translateX(50%);
- transform: translateY(1%);
+ transform: translateY(2%);
  background-color: rgb(175, 20, 241);
  background-size: no-repeat;
- width: 160%;
- height: 1000%;
+ width:max-content;
+ height: cover;
  border-style: solid;
  border-color: black;
 
@@ -60,29 +60,28 @@
 
 .Pagedetails1
 {
- position: absolute;
- top: 15%;
+  position: absolute;
+ top: 10%;
  transform: translateX(50%);
- transform: translateY(1%);
- background-color: rgb(20, 241, 20);
+ transform: translateY(2%);
+ background-color: rgb(175, 20, 241);
  background-size: no-repeat;
- width: 160%;
- height: 1000%;
+ width:max-content;
+ height: cover;
  border-style: solid;
- border-color: black; 
-
+ border-color: black;
 }
 
 .Pagedetails2
 {
- position: absolute;
- top: 15%;
+  position: absolute;
+ top: 10%;
  transform: translateX(50%);
- transform: translateY(1%);
- background-color: rgb(241, 20, 27);
+ transform: translateY(2%);
+ background-color: rgb(175, 20, 241);
  background-size: no-repeat;
- width: 160%;
- height: 1000%;
+ width:max-content;
+ height: cover;
  border-style: solid;
  border-color: black;
 
@@ -91,31 +90,29 @@
 .Pagedetails3
 {
  position: absolute;
- top: 15%;
+ top: 10%;
  transform: translateX(50%);
- transform: translateY(1%);
- background-color: rgb(20, 182, 241);
+ transform: translateY(2%);
+ background-color: rgb(175, 20, 241);
  background-size: no-repeat;
- width: 160%;
- height: 1000%;
+ width:max-content;
+ height: cover;
  border-style: solid;
  border-color: black;
-
 }
 
 .Pagedetails4
 {
- position: absolute;
- top: 15%;
+  position: absolute;
+ top: 10%;
  transform: translateX(50%);
- transform: translateY(1%);
- background-color: rgb(194, 10, 219);
+ transform: translateY(2%);
+ background-color: rgb(175, 20, 241);
  background-size: no-repeat;
- width: 160%;
- height: 1000%;
+ width:max-content;
+ height: cover;
  border-style: solid;
  border-color: black;
-
 
    
 
@@ -124,29 +121,27 @@
 .Pagedetails5
 {
  position: absolute;
- top: 15%;
+ top: 10%;
  transform: translateX(50%);
- transform: translateY(1%);
- background-color: rgb(241, 226, 20);
+ transform: translateY(2%);
+ background-color: rgb(175, 20, 241);
  background-size: no-repeat;
- width: 160%;
- height: 1000%;
+ width:max-content;
+ height: cover;
  border-style: solid;
  border-color: black;
-
-
 }
 
 .Pagedetails6
 {
- position: absolute;
- top: 15%;
+  position: absolute;
+ top: 10%;
  transform: translateX(50%);
- transform: translateY(1%);
- background-color: rgb(20, 178, 241);
+ transform: translateY(2%);
+ background-color: rgb(175, 20, 241);
  background-size: no-repeat;
- width: 160%;
- height: 1000%;
+ width:max-content;
+ height: cover;
  border-style: solid;
  border-color: black;
 
