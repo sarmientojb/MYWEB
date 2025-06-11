@@ -6,8 +6,73 @@ body {
 
   background-size: 100%;
   }
+  
+  .Welcome
+  {
+    position: absolute;
+    width: 60rem;
+    height: 10rem;
+    left: 20%;
+    top: 45%;
+    transform: translatex(-40%);
+    transform: translateY(-20%);
+    background-color: beige;
+    border-style: solid;
+  } 
 
-  .FRME
+ .Big1
+ {
+  position: absolute;
+  display: flex;
+  text-wrap: flex;
+  font-size: 6rem;
+  stroke-width: 10px;
+  left: 15%;
+  top: 45%;
+  transform: translatex(-40%);
+  transform: translateY(-20%);
+  background:linear-gradient(to right, red, yellow,blue, pink, white);
+  border-style: solid;
+
+  
+ }
+ .bBig1
+ {
+  white-space: nowrap; /*- Prevents text from wrapping.*/
+  word-wrap: break-word; /*- Allows text to wrap, breaking long words if needed.*/
+ }
+
+ .Big2
+ {
+  font-size: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 43%;
+  transform: translatex(-40%);
+  transform: translateY(-20%);
+ }
+
+.Big3
+{
+  position: absolute;
+  left: 45%;
+  top: 32rem;
+  transform: translatex(-40%);
+  transform: translateY(-20%);
+  cursor: pointer;
+}
+
+.Big4
+{
+  position: absolute;
+  left: 60%;
+  top: 32rem;
+  transform: translatex(-40%);
+  transform: translateY(-20%);
+  cursor: pointer;
+}
+
+  .Data
   {
     position: absolute;
     left: 50%;
@@ -20,31 +85,13 @@ body {
     height: 30rem;
     background-image: url(japanese.png);
     text-align: center;
-    color: aliceblue;
-    
+    display: none;
+        
   }
 
-  /* Default styles for larger screens */
-.body {
-  font-size: 16px;
-  margin: 20px;
-}
 
-/* Styles for screens smaller than 768px (e.g., tablets, phones) */
-@media (max-width: 768px) {
-  .body {
-    font-size: 14px;
-    margin: 10px;
-  }
-}
 
-/* Styles for screens smaller than 480px (e.g., small phones) */
-@media (max-width: 480px) {
-  .body {
-    font-size: 12px;
-    margin: 5px;
-  }
-}
+
 
   .Bttn
   {
