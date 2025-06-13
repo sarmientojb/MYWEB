@@ -2,9 +2,8 @@
 body {
     
    background-image: linear-gradient(to right,skyblue, magenta) ;
-   background-size: contain;
+   background-size: cover;
 
-  background-size: 100%;
 background-repeat: no-repeat;
   }
   
