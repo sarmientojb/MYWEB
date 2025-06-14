@@ -28,13 +28,13 @@ body {
   
   .Wel
   {
-   float: left;
+   Position:absolute;
    margin-left: 30%;
   }
 
   .Log
   {
-   float: left;
+   Position:absolute;
    margin-top: 5%;
    margin-left: -10%;
    text-decoration: none;
@@ -42,7 +42,7 @@ body {
   }
   .Signup
   {
-   float: left;
+   Position:absolute;
    margin-top: 5%;
    margin-left: -5%;
   text-decoration: none;
