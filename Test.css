@@ -28,23 +28,31 @@ body {
   
   .Wel
   {
-   Position:absolute;
-   margin-left: 30%;
+   position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
   }
 
   .Log
   {
-   Position:absolute;
-   margin-top: 5%;
-   margin-left: -10%;
+   {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
    text-decoration: none;
    color: blue;
   }
   .Signup
   {
-   Position:absolute;
-   margin-top: 5%;
-   margin-left: -5%;
+   position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
   text-decoration: none;
   color: aliceblue;
   }
