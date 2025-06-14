@@ -1,9 +1,9 @@
 
 
-   .body 
+   body 
    {
-   background-color: skyblue;
-  
+   background-image: linear-gradient(to right, skyblue, magenta);
+   background-image: no-repeat;
   }  
 
     .Arrow
@@ -12,266 +12,47 @@
   font-size: x-large;
   }
   
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    width: 179%;
-
-  }
-  
-  .topnav a {
-    float: inline-start;
-    color: #f2f2f2;
+  .Data
+  {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translatex(-50%);
+    transform: translateY(-50%);
+    margin-left: -15%;
+    border: solid;
+    width: 30rem;
+    height: 30rem;
+    background-image: url(japanese.png);
     text-align: center;
-    padding: 14px 1%;
+ 
+        
+  }
+
+    .Bttn
+  {
+  margin-top: 30%;
+  padding: 5%;
+  width: 100%;
+  border-color: black;
+  background-color: aqua;
+  border-style:double;
+  border-width: 1px;
+  cursor: pointer;
+  text-decoration:underline;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  opacity: 5;
+  }
+
+  .FRGET
+
+  {
+  color: red;
+  margin-right: 20%;
+  }
+
+  .CANC{
     text-decoration: none;
-    font-size: 15px;
-    display: inline-flex;
-    margin-left: 8%;
   }
   
-
-  .Home a:hover {
-    background-color: #dddddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-
-
-
-.Pagedetails
-{
- position: absolute;
- top: 10%;
- transform: translateX(50%);
- transform: translateY(2%);
- background-color: rgb(175, 20, 241);
- background-size: no-repeat;
- width:160%;
- height: cover;
- border-style: solid;
- border-color: black;
-
-
-}
-
-.Pagedetails1
-{
-  position: absolute;
- top: 10%;
- transform: translateX(50%);
- transform: translateY(2%);
- background-color: rgb(175, 20, 241);
- background-size: no-repeat;
- width:max-content;
- height: cover;
- border-style: solid;
- border-color: black;
-}
-
-.Pagedetails2
-{
-  position: absolute;
- top: 10%;
- transform: translateX(50%);
- transform: translateY(2%);
- background-color: rgb(175, 20, 241);
- background-size: no-repeat;
- width:max-content;
- height: cover;
- border-style: solid;
- border-color: black;
-
-}
-
-.Pagedetails3
-{
- position: absolute;
- top: 10%;
- transform: translateX(50%);
- transform: translateY(2%);
- background-color: rgb(175, 20, 241);
- background-size: no-repeat;
- width:max-content;
- height: cover;
- border-style: solid;
- border-color: black;
-}
-
-.Pagedetails4
-{
-  position: absolute;
- top: 10%;
- transform: translateX(50%);
- transform: translateY(2%);
- background-color: rgb(175, 20, 241);
- background-size: no-repeat;
- width:max-content;
- height: cover;
- border-style: solid;
- border-color: black;
-
-   
-
-}
-
-.Pagedetails5
-{
- position: absolute;
- top: 10%;
- transform: translateX(50%);
- transform: translateY(2%);
- background-color: rgb(175, 20, 241);
- background-size: no-repeat;
- width:max-content;
- height: cover;
- border-style: solid;
- border-color: black;
-}
-
-.Pagedetails6
-{
-  position: absolute;
- top: 10%;
- transform: translateX(50%);
- transform: translateY(2%);
- background-color: rgb(175, 20, 241);
- background-size: no-repeat;
- width:max-content;
- height: cover;
- border-style: solid;
- border-color: black;
-
-   
-}
-
-.Homepage
-{
- text-align: center;
-}
-
-
-.Picture1
-{
-text-align: center;
-margin-left: -20px;
-border-color: black ;
-border-style: solid;
-margin-left: -30%;
-
-}
-Picture
-{
- display:inline;
- grid-template-rows: repeat(2) ;
- margin: 50px;
- padding: 15px;
- margin-left: -20%;
-
-}
-
-.Photo1
-{
-width: 150px;
-height: 100px;
-margin: 5px;
-padding: 5px;
-
-}
-
-.Photo2
-{
-   width: 150px;
-height: 100px;
-margin: 5px;
-padding: 5px;
-  
-}
-/*
-.Photo3
-{
-     width: 150px;
-height: 100px;
-margin: 5px;
-padding: 5px;
-}
-.Photo4
-{
-     width: 150px;
-height: 100px;
-margin: 5px;
-padding: 5px;
-}
-*/
-.VIdeo1
-{
-text-align: center;
-margin-left: -20px;
-border-color: black ;
-border-style: solid;
-width: 100%;
-}
-.VIdeo
-{
- display:inline;
- grid-template-rows: repeat(3,1fr) ;
- margin: 1px;
- padding: 0.1px;
-}
-
-.video1
-{
-   width: 150px;
-    height: 100px;
-}
-
-.video2
-{
-      width: 150px;
-    height: 100px;
-}
-
-.video3
-{
-    width: 150px;
-    height: 100px;
-}
-
-
-.Music1
-{
-text-align: center;
-margin-left: -20px;
-border-color: black ;
-border-style: solid;
-width: 100%;
-}
-.Music
-{
- display:inline;
- grid-template-rows: repeat(3,1fr) ;
- margin: 1px;
- padding: 0.1px;
-}
-
-.music1
-{
-   width: 150px;
-    height: 100px;
-}
-
-.music2
-{
-     width: 150px;
-    height: 100px;
-}
-
-.music3
-{
-       width: 150px;
-    height: 100px;
-}
