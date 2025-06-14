@@ -30,7 +30,7 @@ body {
   {
    position: absolute;
   left: 50%;
-  top: 50%;
+  top: 25%;
   transform: translateY(-50%);
   transform: translateX(-50%);
   }
@@ -40,7 +40,7 @@ body {
    {
   position: absolute;
   left: 50%;
-  top: 60%;
+  top: 30%;
   transform: translateY(-50%);
   transform: translateX(-50%);
    text-decoration: none;
@@ -49,8 +49,8 @@ body {
   .Signup
   {
    position: absolute;
-  left: 50%;
-  top: 70%;
+  left: 70%;
+  top: 30%;
   transform: translateY(-50%);
   transform: translateX(-50%);
   text-decoration: none;
