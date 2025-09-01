@@ -1,0 +1,130 @@
+
+
+header
+{
+text-align: center;
+}
+.Navigation
+{
+ float: left;
+ margin-top: -.5%;
+ background-color: grey;
+ width: 100%;
+ height: 100%;
+}
+
+ul
+{
+ background-color: aqua;
+ display: inline;
+ padding:  1px;
+ margin: 0%;
+ list-style: none;
+   
+}
+
+li
+{
+ font-size: large;
+ display: inline-block;
+ padding-right: 20px;
+ padding-left: 20px;
+}
+
+
+body
+{
+background-image:linear-gradient(to left, magenta, skyblue);
+background-size: contain;
+box-sizing: border-box;
+}
+
+.li1
+{
+background-image: linear-gradient(to left, skyblue, blue);
+}
+
+.li2
+{
+background-image: linear-gradient(to right, yellow, red);
+}
+
+.li3
+{
+background-image: linear-gradient(to left, orange, green);
+}
+
+.li4
+{
+background-image: linear-gradient(to top, pink, white );
+}
+
+.li5
+{
+background-image: linear-gradient(to right,yellowgreen, beige);
+}
+
+
+.BDesign
+{
+ background-image: url(../DESIGN/Anime\ \(1\).jpg); /* Replace with your image URL */
+ background-repeat: no-repeat; /* Prevents the image from repeating */
+ background-position: center; /* Centers the image */
+ background-size: cover; /* Important for "flexing" the image */
+ min-height: 100vh; /* Example: make the container take full viewport height */
+ width: 100%; /* Example: make the container take full width */
+}
+
+.LINKS
+{
+ float: left;
+ width: 100%;
+ height: 100%;
+ background-color: grey;
+ text-align: center;
+ opacity: 0.5;
+
+}
+
+.MainUL
+{
+list-style: none;
+display: inline;
+}
+
+
+.ROWS:after
+{
+content: "";
+display: flex;
+width: 100%;
+
+
+}
+
+.COLUMN1
+{
+float: left ;
+background-color: grey;
+color: white;
+width: 30%;
+}
+
+
+.COLUMN2
+{
+float: left ;
+margin-left: 30px;
+background-color: grey;
+color: white;
+width: 30%;
+}
+
+
+.COLUMN3
+{
+float: left ;
+background-color: grey;
+color: white;
+width: 30%;
+}
