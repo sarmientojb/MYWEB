@@ -70,7 +70,7 @@ background-image: linear-gradient(to right,yellowgreen, beige);
  background-image: url(../DESIGN/Anime\ \(1\).jpg); /* Replace with your image URL */
  background-repeat: no-repeat; /* Prevents the image from repeating */
  background-position: center; /* Centers the image */
- background-size: contain; /* Important for "flexing" the image */
+ background-size: cover; /* Important for "flexing" the image */
  min-height: 100vh; /* Example: make the container take full viewport height */
  width: 100%; /* Example: make the container take full width */
 }
