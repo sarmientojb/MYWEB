@@ -86,7 +86,9 @@ box-shadow: 0 0 5px green,0 0 5px green,
   font-style: bold;
   font-family: 'Courier New', Courier, monospace;
   cursor: pointer;
-   
+
+                 
+ background-image: linear-gradient(to left, navy, white);  
 }
 
 .SIGN
@@ -101,6 +103,9 @@ box-shadow: 0 0 5px green,0 0 5px green,
   font-size: large;
   font-style: bold;
   cursor: pointer;
+
+   text-shadow: -1px -1px 0 rgb(237, 244, 237), 1px -1px 0 rgb(224, 231, 224), 1px 1px 0 darkgreen,
+    1px 1px 0 rgb(239, 246, 239);
 }
 
 hr
@@ -131,8 +136,9 @@ hr
   font-size: large;
   font-style: bold;
   cursor: pointer;
+  text-shadow: -1px -1px 0 rgb(237, 244, 237), 1px -1px 0 rgb(224, 231, 224), 1px 1px 0 darkgreen,
+    1px 1px 0 rgb(239, 246, 239);
 }
-
 .Media
 { 
   position: relative;
@@ -156,6 +162,12 @@ hr
   width: 60px;
   height: 60px;
   cursor: pointer;
+
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+
 }
 
 
@@ -164,13 +176,19 @@ hr
   
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 27.5%;
   transform: translateX(-50%);
   transform: translateY(-50%);
   width: 60px;
   height: 60px;
   cursor: pointer;
+  
+
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
   border-radius: 50%;
+  
 }
 
 .YImage
@@ -181,9 +199,16 @@ hr
   left: 45%;
   transform: translateX(-50%);
   transform: translateY(-50%);
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   cursor: pointer;
+
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  
+
 }
 
 .IImage
@@ -197,6 +222,11 @@ hr
   width: 60px;
   height: 60px;
   cursor: pointer;
+
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
 }
 
 
@@ -210,4 +240,9 @@ hr
   width: 60px;
   height: 60px;
   cursor: pointer;
+
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
 }
