@@ -1,141 +1,117 @@
 body
 {
-background-image: linear-gradient(to right, red, yellow);
- font-family: Arial, Helvetica, sans-serif;
-overflow: hidden;
-}
-
-
-.Menu
-{
 background-image: url(../DESIGN/Japan1.jpg);
 background-size: cover;
 background-repeat: no-repeat;
-width: 100%;
+width: 100vw;
 height: 100vh;
 }
 
-* {
-  box-sizing: border-box;
-}
 
-/* style the container */
-.container {
-  background-image: url(../DESIGN/japanese.png);
+.Main
+{
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+
   position: relative;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px 0 30px 0;
-} 
-
-/* style inputs and link buttons */
-input
-.btn {
-  width: 100%;
-  padding: 12px;
-  border: none;
-  border-radius: 4px;
-  margin: 5px 0;
-  opacity: 0.85;
-  display: inline-block;
-  font-size: 17px;
-  line-height: 20px;
-  text-decoration: none; /* remove underline from anchors */
+  top: 10%;
+  left: 20%;
+  transform: translateX(-20%);
+  transform: translateY(21%);
+  width: 60vw;
+  height: 80vh;
 }
 
-input:hover,
-.btn:hover {
-  opacity: 1;
-}
+.Details
+{
+  
 
-/* add appropriate colors to fb, twitter and google buttons */
-.fb {
-  background-color: #3B5998;
-  color: white;
-}
-
-.twitter {
-  background-color: #55ACEE;
-  color: white;
-}
-
-.google {
-  background-color: #dd4b39;
-  color: white;
-}
-
-/* style the submit button */
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* Two-column layout */
-.col {
-  float: left;
-  width: 50%;
-  margin: auto;
-  padding: 0 50px;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* vertical line */
-.vl {
+  /*This Section is for the POSITION */
   position: absolute;
+  top: 10%;
+  left: 5
+  2%;
+  transform: translateX(-5%);
+  transform: translateY(-20%);
+
+  width: 60vw;
+  height: 70vh;
+
+  /*This Section is for  TEXT DESIGN*/
+  font-size: small;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+ 
+  color: black;
+
+
+ }
+
+ .Pro
+ {
+  font-style: bold;
+  font-size: x-large;
+  color: black;
+  border-style: dashed;
+  text-align: center;
+ }
+ 
+
+
+ .Media
+{ 
+  position: relative;
+  
+  top: 10%;
   left: 50%;
-  transform: translate(-50%);
-  border: 2px solid #ddd;
-  height: 175px;
+  transform: translateY(-10%);
+  transform: translateX(-50%);
+  width:  50vw;
+  height: 10vh;
+   
 }
 
-/* text inside the vertical line */
-.vl-innertext {
+
+.FImage
+{
   position: absolute;
   top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
-  border: 1px solid #ccc;
+  left: 15%;
+  transform: translateX(-15%);
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
   border-radius: 50%;
-  padding: 8px 10px;
+  padding: 0%;
+  margin: 0%;
+
 }
 
-/* hide some text on medium and large screens */
-.hide-md-lg {
-  display: none;
-}
 
-/* bottom container */
-.bottom-container {
-  text-align: center;
-  background-color: #666;
-  border-radius: 0px 0px 4px 4px;
-}
+.GImage
+{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-35%);
+  transform: translateY(-50%);
+  width: 40x;
+  height: 40px;
+  cursor: pointer;
+  
 
-/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 650px) {
-  .col {
-    width: 100%;
-    margin-top: 0;
-  }
-  /* hide the vertical line */
-  .vl {
-    display: none;
-  }
-  /* show the hidden text on small screens */
-  .hide-md-lg {
-    display: block;
-    text-align: center;
-  }
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  padding: 0%;
+  margin: 0%;
+  
 }

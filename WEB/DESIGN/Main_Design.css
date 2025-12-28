@@ -50,7 +50,7 @@ background-size:cover;
 background-repeat: no-repeat;
 min-width: 100vw;
 height: 100vh;
-border-radius: 15px;
+
 box-shadow: 0 0 5px green,0 0 5px green,
                  0 0 5px green,0 0 5px green,
                  0 0 5px green,0 0 5px green,
@@ -88,7 +88,10 @@ box-shadow: 0 0 5px green,0 0 5px green,
   cursor: pointer;
 
                  
- background-image: linear-gradient(to left, navy, white);  
+ background-image: url(../DESIGN/Japan1.jpg);  
+ background-size:auto;
+ background-repeat: no-repeat;
+
 }
 
 .SIGN
@@ -139,6 +142,7 @@ hr
   text-shadow: -1px -1px 0 rgb(237, 244, 237), 1px -1px 0 rgb(224, 231, 224), 1px 1px 0 darkgreen,
     1px 1px 0 rgb(239, 246, 239);
 }
+
 .Media
 { 
   position: relative;
@@ -246,3 +250,4 @@ hr
   border-style: solid;
   border-radius: 50%;
 }
+
