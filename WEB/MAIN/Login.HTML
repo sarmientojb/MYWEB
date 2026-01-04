@@ -9,7 +9,7 @@
 
 <body>
 
-<nav>
+<div class="Menu">
 
   <form class="Main" action="\action_page.php">
   
@@ -17,48 +17,52 @@
 
     <br><label class="Pro" for="">PROFILE REGISTRATION</label><br>
 
-    <br><label for="USERNAME">USERNAME:</label>
-    <input type="text" id="USERNAME" name="USERNAME">
+    <br><label for="USERNAME"></label>
+    <input type="text" placeholder="USERNAME" id="USERNAME" name="USERNAME">
 
-    <label for="Email">EMAIL</label>
-    <input type="text" name="Email" id="Email"><br>
+    <label for="Email"></label>
+    <input type="text"  placeholder="EMAIL" name="Email" id="Email"><br>
 
-   <br> <label for="FName">GIVEN NAME:</label>
-    <input type="text" name="Fname" id="Fname">
+   <br> <label for="FName"></label>
+    <input type="text" placeholder="GIVEN NAME" autocomplete="additional-name" name="Fname" id="Fname" required>
 
-   <label for="LName">LAST NAME</label>
-   <input type="text" name="LName" id="LNAme"><br>
+   <label for="LName"></label>
+   <input type="text" placeholder="LAST NAME"  name="LName" id="LNAme" required><br>
 
    <br><label for="DBirth">BIRTH OR DATE</label>
-   <input type="date" name="DBirth" id="DBirth"><br>
+   <input type="date" placeholder="" name="DBirth" id="DBirth" required><br>
 
 
-   <br><label for="Password">PASSWORD</label>
-   <input type="password" name="Password" id="Password"><br>
+   <br><label for="Password"></label>
+   <input type="password" placeholder="PASSWORD" name="Password" id="Password"><br>
 
-   <br> <label for="RPassword">REPEAT PASSWORD</label>
-   <input type="password" name="Password" id="Password">
+   <br> <label for="RPassword"></label>
+   <input type="password" placeholder="REPEAT PASSWORD" name="Password" id="Password">
 
-   <Nav class="Media">
+
+   <br><br><br><button class="Submit">SUBMIT</button>
+
+  
+  
+</nav>
+
+
+
     
-    <img class="FImage" src="../DESIGN/facebook.png" onclick="location.href='https://www.facebook.com'">
+  </form>
+<div class="Foot">
+  
+ <Nav class="Media">
 
+    
+    <img class="FImage" src="../DESIGN/facebook.png" onclick="location.href='https://www.facebook.com'"> 
+    
     <img class="GImage" src="../DESIGN/GMAil.png" onclick="location.href='https://www.gmail.com'">
 
     
   </Nav>
-
-</nav>
-    
-
- </nav>
-
-  </form>
-
-    </div>
-  </form>
 </div>
-
+</div>
 
 </body>
 </html>

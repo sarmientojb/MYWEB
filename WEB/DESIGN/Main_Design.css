@@ -60,7 +60,6 @@ box-shadow: 0 0 5px green,0 0 5px green,
 .Choices
 {
   position: relative;
-
   transform: translateX(50%);
   transform: translateY(280%);
   width: 100vw;
@@ -250,4 +249,5 @@ hr
   border-style: solid;
   border-radius: 50%;
 }
+
 
