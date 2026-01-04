@@ -1,0 +1,69 @@
+body
+{
+  background-color: blue;
+}
+
+
+.Menu
+{
+background-image: url(../DESIGN/Japan1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+width: 100vw;
+height: 100vh;
+}
+
+
+.Main
+{
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 20%;
+  left: 20%;
+  transform: translateX(-1vh);
+  transform: translateY(-15%);
+  width: 60vw;
+  height: 50vh;
+
+}
+
+.Details
+{
+    /*This Section is for the POSITION */
+  position: absolute;
+  
+  top: 45%;
+  left: 5%
+  2%;
+  transform: translateX(-5%);
+  transform: translateY(-20%);
+
+  width: 60vw;
+  height: 50vh;
+
+  /*This Section is for  TEXT DESIGN*/
+  font-size: small;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+ 
+  color: black;
+
+
+ }
+
+.Submit
+{
+ color: black;
+ 
+}
+
+.Back
+{
+ color: aliceblue;
+ text-decoration: none;
+ font-size: x-large;
+ font-family: 'Courier New', Courier, monospace;
+ font-style: bold;
+}
