@@ -1,0 +1,253 @@
+
+
+body
+{
+background-color: navy;
+
+}
+
+.Header
+{
+position: relative;
+top: 10%;
+left: 70%;
+transform: translateX(-50%);
+transform: translateY(-50%);
+width: 25%;
+height: 10vh;
+
+margin-bottom: 0%;
+
+
+}
+
+.Greetings
+{
+top: 30%;
+left: 10%;
+transform: translateX(-50%);
+transform: translateY(-50%);
+position: absolute;
+font-family: 'Courier New', Courier, monospace;
+font-size: xx-large;
+background-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+text-shadow: 0 0 5px green,0 0 5px green,
+                 0 0 5px green,0 0 5px green,
+                 0 0 5px green,0 0 5px green,
+                 0 0 5px green,0 0 5px green;
+
+box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+border-image-slice: 1;
+border-radius: 57px;
+opacity: 0.5;
+}
+
+
+.Menu
+{
+background-image: url(Japan1.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+min-width: 100vw;
+height: 100vh;
+
+box-shadow: 0 0 5px green,0 0 5px green,
+                 0 0 5px green,0 0 5px green,
+                 0 0 5px green,0 0 5px green,
+                 0 0 5px green,0 0 5px green;
+}
+
+.Choices
+{
+  position: relative;
+  transform: translateX(50%);
+  transform: translateY(280%);
+  width: 100vw;
+  height: 15vh;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.LOG
+{
+  position: absolute;
+  top: 5%;
+  left: 32.5%;
+  transform: translateX(50%);
+  transform: translateY(50%);
+  width: 30%;
+  height: 30%;
+  border-radius: 47px;
+  border-color: rgb(7, 13, 13);
+  color: black ;
+  font-size: xx-large;
+  font-style: bold;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+
+                 
+ background-image: url(Japan1.jpg);  
+ background-size:auto;
+ background-repeat: no-repeat;
+
+}
+
+.SIGN
+{
+  position: absolute;
+  top: 60%;
+  left:40%;
+  transform: translateY(60%);
+  transform: translateX(-40%);
+  list-style: none;
+  color: #1F51FF;
+  font-size: large;
+  font-style: bold;
+  cursor: pointer;
+
+   text-shadow: -1px -1px 0 rgb(237, 244, 237), 1px -1px 0 rgb(224, 231, 224), 1px 1px 0 darkgreen,
+    1px 1px 0 rgb(239, 246, 239);
+}
+
+hr
+{
+  position: absolute;
+  top: 67%;
+  left:46%;
+  transform: translateY(-67%);
+  transform: translateX(-40%);
+  
+
+  height: 2px; /* Sets the thickness of the line */
+  background-color: #333; /* Changes the line color */
+  width: 3%; /* Adjusts the width */
+  transform: rotate(90deg);
+
+}
+ 
+.FORGET
+{
+  position: absolute;
+  top: 60%;
+  left:57%;
+  transform: translateY(60%);
+  transform: translateX(-56%);
+  list-style: none;
+  color:  #FF3131;
+  font-size: large;
+  font-style: bold;
+  cursor: pointer;
+  text-shadow: -1px -1px 0 rgb(237, 244, 237), 1px -1px 0 rgb(224, 231, 224), 1px 1px 0 darkgreen,
+    1px 1px 0 rgb(239, 246, 239);
+}
+
+.Media
+{ 
+  position: relative;
+ 
+  top: 65%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  height: 10vh;
+   
+}
+
+
+.FImage
+{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+
+}
+
+
+.GImage
+{
+  
+  position: absolute;
+  top: 50%;
+  left: 27.5%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  
+
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  
+}
+
+.YImage
+{
+  
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  
+
+}
+
+.IImage
+{
+  
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+
+.TImage
+{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+
