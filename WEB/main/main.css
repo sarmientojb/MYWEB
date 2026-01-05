@@ -47,7 +47,7 @@ opacity: 0.5;
 
 .Menu
 {
-min-width: 100vw;
+width: 100vw;
 height: 100vh;
 
 box-shadow: 0 0 5px green,0 0 5px green,
@@ -248,6 +248,7 @@ hr
   border-style: solid;
   border-radius: 50%;
 }
+
 
 
 
