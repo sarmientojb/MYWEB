@@ -2,7 +2,7 @@
 
 body
 {
-background-color: navy;
+background-image: url(Japan1.jpg);
 
 }
 
@@ -45,7 +45,6 @@ opacity: 0.5;
 
 .Menu
 {
-background-image: url(Japan1.jpg);
 background-size:cover;
 background-repeat: no-repeat;
 min-width: 100vw;
@@ -249,5 +248,6 @@ hr
   border-style: solid;
   border-radius: 50%;
 }
+
 
 
