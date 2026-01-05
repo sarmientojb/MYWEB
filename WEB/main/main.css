@@ -1,10 +1,8 @@
+
+
 body
 {
-background-image: url(Japan1.jpg);
-background-size:cover; 
-background-repeat: no-repeat;
-min-width: 100vw;
-height: 100vh;
+background-color: navy;
 
 }
 
@@ -47,7 +45,10 @@ opacity: 0.5;
 
 .Menu
 {
-width: 100vw;
+background-image: url(Japan1.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+min-width: 100vw;
 height: 100vh;
 
 box-shadow: 0 0 5px green,0 0 5px green,
@@ -248,10 +249,5 @@ hr
   border-style: solid;
   border-radius: 50%;
 }
-
-
-
-
-
 
 
