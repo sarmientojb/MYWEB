@@ -3,7 +3,7 @@
 body
 {
 background-image: url(Japan1.jpg);
-background-size:cover;
+background-size:auto;
 background-repeat: no-repeat;
 }
 
@@ -249,6 +249,7 @@ hr
   border-style: solid;
   border-radius: 50%;
 }
+
 
 
 
