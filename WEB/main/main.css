@@ -5,7 +5,7 @@ body
 background-image: url(Fuji.jpg);
 background-repeat: no-repeat;
 background-size: cover; /* Optional: ensures the image covers the whole background */
-background-attachment: fixed; /* This is the key property */
+
 background-position: center; /* Optional: centers the image */
 
 }
@@ -216,5 +216,6 @@ hr
   border-style: solid;
   border-radius: 50%;
 }
+
 
 
