@@ -5,8 +5,10 @@ body
 background-image: url(Fuji.jpg);
 background-repeat: no-repeat;
 background-size: cover; /* Optional: ensures the image covers the whole background */
-
+background-attachment: fiexd;
 background-position: center; /* Optional: centers the image */
+min-height: 100vh;
+min-width: 100vw;
 
 }
 
@@ -216,6 +218,7 @@ hr
   border-style: solid;
   border-radius: 50%;
 }
+
 
 
 
