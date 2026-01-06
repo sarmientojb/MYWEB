@@ -1,42 +1,19 @@
 body
 {
-  background-color: blue;
-}
-
-
-.Menu
-{
-background-image: url(Japan1.jpg);
-background-size: cover;
+background-image: url(Fuji.jpg);
 background-repeat: no-repeat;
-width: 100vw;
-height: 100vh;
+background-size: cover; /* Optional: ensures the image covers the whole background */
+background-attachment: fixed; /* This is the key property */
+background-position: center; /* Optional: centers the image */
 }
 
-
-.Main
-{
-  
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  top: 20%;
-  left: 20%;
-  transform: translateX(-1vh);
-  transform: translateY(-15%);
-  width: 60vw;
-  height: 50vh;
-
-}
 
 .Details
 {
     /*This Section is for the POSITION */
   position: absolute;
-  
   top: 45%;
-  left: 5%
-  2%;
+  left: 20%;
   transform: translateX(-5%);
   transform: translateY(-20%);
 

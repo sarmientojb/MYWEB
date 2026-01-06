@@ -1,47 +1,19 @@
 body
 {
-  background-color: blue;
-}
-
-
-.Menu
-{
-background-image: url(Japan1.jpg);
-background-size: cover;
+background-image: url(Fuji.jpg);
 background-repeat: no-repeat;
-width: 100vw;
-height: 100vh;
+background-size: cover; /* Optional: ensures the image covers the whole background */
+background-attachment: fixed; /* This is the key property */
+background-position: center; /* Optional: centers the image */
 }
 
-
-.Main
-{
-  
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-  position: relative;
-  top: 10%;
-  left: 20%;
-  transform: translateX(-1vh);
-  transform: translateY(-15%);
-  width: 60vw;
-  height: 50vh;
-
-}
 
 .Details
 {
-  
-
-  /*This Section is for the POSITION */
-  position: absolute;
-  
-  top: 45%;
-  left: 5%
-  2%;
-  transform: translateX(-5%);
-  transform: translateY(-20%);
+    /*This Section is for the POSITION */
+  position: relative;
+  left: 20%;
+   transform: translateY(30%);
 
   width: 60vw;
   height: 50vh;
@@ -66,30 +38,19 @@ height: 100vh;
  }
  
 
-
- .Foot
-{ 
-  position: relative;
-  top: 20%;
-  left: 50%;
-  transform: translateY(-50%);
-  transform: translateX(-50%);
-  width:  100%;
-  height: 10vh;
-
-    
+.Details, .DBirth
+{
+ color: aliceblue;
 }
 
-
+ 
 .Media
 
 {
-  position: absolute;
-  
-  top: 15%;
-  left: 50%;
+  position: relative; 
+  top: 60;
   transform: translateY(-50%);
-  transform: translateX(-50%);
+  transform: translateX(50%);
   width: 50%;
   height: 5vh;
   text-align: center;
