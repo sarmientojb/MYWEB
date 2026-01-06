@@ -1,13 +1,11 @@
 
 
 body
-{
-background-image: url(Fuji.jpg);
+{background-image: url(Fuji.jpg);
 background-repeat: no-repeat;
 background-size: cover; /* Optional: ensures the image covers the whole background */
-background-attachment: fiexd;
+background-attachment: fixed; /* This is the key property */
 background-position: center; /* Optional: centers the image */
-
 }
 
 .Header
