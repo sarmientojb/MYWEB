@@ -4,60 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <link rel="stylesheet" href="./WEB/main/main.css">
+    <link rel="stylesheet" href="main.css">
     <script src="../JS/Sample.js"></script>
    
     <title>ジェイのウェブサイト</title>
     
 </head>
 
+<body>
   
- <body>
-  <header class="header">
-    <h1>WELCOME</h1>
-  </header>
+ <!-- Your main website content goes here -->
+    <div id="website-content">Welcome to my website</div>
 
-  <main class="container">
-    <button class="log-btn">LOG IN</button>
+    <!-- The custom console overlay -->
+    <div id="custom-console"></div>
 
-    <div class="links">
-      <a href="#" class="sign">Sign Up</a>
-      <span class="divider"></span>
-      <a href="#" class="forget">Forgot?</a>
-    </div>
-  </main>
+ 
+ <Nav class="Menu">
 
-  <footer class="social">
-    <img src="facebook.png" alt="">
-    <img src="google.png" alt="">
-    <img src="youtube.png" alt="">
-    <img src="instagram.png" alt="">
-    <img src="twitter.png" alt="">
-  </footer>
+   <nav class="Header">
+    <p class="Greetings" >ようこそ僕のウェブ</p>
+</nav>
+
+   <nav class="LoginBackground">
+    <ul class="Choices">
+    <button class="LOG"  onclick="location.href='/WEB/log-in'">LOGIN</button>
+     <li class="SIGN"onclick="location.href='/WEB/signup'">SIGN UP</li> <hr class="Break">
+     <li class="FORGET" onclick="location.href='/WEB/forget'">FORGET <br> PASSWORD</li>
+    </ul>
+ </nav>
+
+   <Nav class="Media">
+    
+    <img class="FImage" src="facebook.png" onclick="location.href='https://www.facebook.com'">
+
+    <img class="GImage" src="GMAil.png" onclick="location.href='https://www.gmail.com'">
+
+    <img class="YImage" src="youtube (1).png" onclick="location.href='https://www.youtube.com'">
+
+    <img class="IImage" src="instagram (1).png" onclick="location.href='https://www.instagram.com/'">
+
+    <img class="TImage" src="twitter.png" onclick="location.href='https://www.twitter.com'">
+
+  </Nav>
+
+
+
+</Nav>   
+
 </body>
 
 
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
