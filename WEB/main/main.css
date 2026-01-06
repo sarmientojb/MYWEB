@@ -7,7 +7,7 @@ background-repeat: no-repeat;
 background-size: cover; /* Optional: ensures the image covers the whole background */
 background-attachment: fixed; /* This is the key property */
 background-position: center; /* Optional: centers the image */
-
+min-heihgt: 100vh;
 }
 
 .Header
@@ -216,5 +216,6 @@ hr
   border-style: solid;
   border-radius: 50%;
 }
+
 
 
